@@ -1,7 +1,7 @@
 # Overview
 
 This repository contains structured json data about the endpoints currently published for Millennium's 
-HL7 FHIR <sup>®</sup> implementation inteded for patients to access their health care data. 
+HL7 FHIR <sup>®</sup> implementation intended for patients to access their health care data. 
 
 ## Updates
 This list will be updated periodically with new endpoints as 
