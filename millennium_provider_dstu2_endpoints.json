@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-dstu2",
   "type": "collection",
-  "total": 1654,
+  "total": 1656,
   "entry": [
     {
       "resource": {
@@ -47955,6 +47955,64 @@
           "id": "#Odf6c8393-ac58-4a86-8a27-38dc34fcee7e"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/df6c8393-ac58-4a86-8a27-38dc34fcee7e/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "429a252c-d8ed-49c2-a7fe-d64be676fdca",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O429a252c-d8ed-49c2-a7fe-d64be676fdca",
+            "name": "The Steven A. Cohen Military Family Clinic At The University Of Pennsylvania",
+            "address": [
+              {
+                "line": [
+                  "3535 Market Street, Suite 670"
+                ],
+                "city": "Philadelphia",
+                "state": "Pennsylvan",
+                "postalCode": "19104",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O429a252c-d8ed-49c2-a7fe-d64be676fdca"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/429a252c-d8ed-49c2-a7fe-d64be676fdca/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "ea58a6c7-91a7-4c12-b7a2-85fb3bc9550c",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oea58a6c7-91a7-4c12-b7a2-85fb3bc9550c",
+            "name": "The Steven A. Cohen Military Family Clinic At Easterseals",
+            "address": [
+              {
+                "line": [
+                  "141 West Jackson Boulevard, Suite 1400A"
+                ],
+                "city": "Chicago",
+                "state": "Illinois",
+                "postalCode": "60604",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oea58a6c7-91a7-4c12-b7a2-85fb3bc9550c"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/ea58a6c7-91a7-4c12-b7a2-85fb3bc9550c/"
       }
     }
   ]
