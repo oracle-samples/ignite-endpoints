@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-r4",
   "type": "collection",
-  "total": 1656,
+  "total": 1657,
   "entry": [
     {
       "resource": {
@@ -15637,15 +15637,15 @@
           {
             "resourceType": "Organization",
             "id": "O7451da2d-b295-406d-b4cc-8418bea10127",
-            "name": "Claritas",
+            "name": "C2i Genomics, Inc.",
             "address": [
               {
                 "line": [
-                  "99 Erie St Ste A"
+                  "180 Varick St"
                 ],
-                "city": "Cambridge",
-                "state": "Massachuse",
-                "postalCode": "02139-4559",
+                "city": "New York",
+                "state": "New York",
+                "postalCode": "10014-4606",
                 "country": "United States of America"
               }
             ]
@@ -48013,6 +48013,35 @@
           "id": "#Oea58a6c7-91a7-4c12-b7a2-85fb3bc9550c"
         },
         "address": "https://fhir-ehr.cerner.com/r4/ea58a6c7-91a7-4c12-b7a2-85fb3bc9550c/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "09f87210-eeaa-4491-a502-556546cf5c51",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O09f87210-eeaa-4491-a502-556546cf5c51",
+            "name": "Littleton Hospital Association D/B/A LRH",
+            "address": [
+              {
+                "line": [
+                  "600 St Johnsbury Rd"
+                ],
+                "city": "Littleton",
+                "state": "New Hampsh",
+                "postalCode": "03561-3442",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O09f87210-eeaa-4491-a502-556546cf5c51"
+        },
+        "address": "https://fhir-ehr.cerner.com/r4/09f87210-eeaa-4491-a502-556546cf5c51/"
       }
     }
   ]
