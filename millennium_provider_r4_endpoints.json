@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-r4",
   "type": "collection",
-  "total": 1657,
+  "total": 1658,
   "entry": [
     {
       "resource": {
@@ -28801,7 +28801,7 @@
           {
             "resourceType": "Organization",
             "id": "Oba40796e-8707-4090-9556-3c8b839b86b5",
-            "name": "Surgical Advanced Specialty Center",
+            "name": "Dr. Brian Harkins MD",
             "address": [
               {
                 "line": [
@@ -32459,11 +32459,11 @@
             "address": [
               {
                 "line": [
-                  "1310 San Bernardino Rd Ste 103"
+                  "1310 San Bernardino Rd"
                 ],
                 "city": "Upland",
                 "state": "California",
-                "postalCode": "91786-4961",
+                "postalCode": "91786",
                 "country": "United States of America"
               }
             ]
@@ -40021,7 +40021,7 @@
           {
             "resourceType": "Organization",
             "id": "OtTXrX5CwF_jg4SeBNvS69xYVhSO8ZDGs",
-            "name": "John D Mozena, DPM",
+            "name": "Town Center Foot Clinic",
             "address": [
               {
                 "line": [
@@ -48042,6 +48042,35 @@
           "id": "#O09f87210-eeaa-4491-a502-556546cf5c51"
         },
         "address": "https://fhir-ehr.cerner.com/r4/09f87210-eeaa-4491-a502-556546cf5c51/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "f24ac13d-3953-486e-b046-3f6f7cc41dd9",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Of24ac13d-3953-486e-b046-3f6f7cc41dd9",
+            "name": "Brown County Hospital",
+            "address": [
+              {
+                "line": [
+                  "945 East Zero Street"
+                ],
+                "city": "Ainsworth",
+                "state": "Nebraska",
+                "postalCode": "69210-1556",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Of24ac13d-3953-486e-b046-3f6f7cc41dd9"
+        },
+        "address": "https://fhir-ehr.cerner.com/r4/f24ac13d-3953-486e-b046-3f6f7cc41dd9/"
       }
     }
   ]
