@@ -1,0 +1,965 @@
+{
+  "resourceType": "Bundle",
+  "id": "soarian-patient-r4",
+  "type": "collection",
+  "total": 34,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "725ea83c-53c1-458f-a3a4-190e038b73c9",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O725ea83c-53c1-458f-a3a4-190e038b73c9",
+            "name": "Albany Medical Center",
+            "address": [
+              {
+                "line": [
+                  "43 New Scotland Ave"
+                ],
+                "city": "Albany",
+                "state": "NY",
+                "postalCode": "12208-3412",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O725ea83c-53c1-458f-a3a4-190e038b73c9"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/725ea83c-53c1-458f-a3a4-190e038b73c9/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "a5f4ce6b-ab0a-413b-affc-47ff1650194e",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oa5f4ce6b-ab0a-413b-affc-47ff1650194e",
+            "name": "Archbold Medical Center",
+            "address": [
+              {
+                "line": [
+                  "915 Gordan Ave"
+                ],
+                "city": "Thomasville",
+                "state": "GA",
+                "postalCode": "31792",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oa5f4ce6b-ab0a-413b-affc-47ff1650194e"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/a5f4ce6b-ab0a-413b-affc-47ff1650194e/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "5cec35cb-ca56-453f-a1d3-fc5e20bab214",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O5cec35cb-ca56-453f-a1d3-fc5e20bab214",
+            "name": "Arkansas Heart Hospital",
+            "address": [
+              {
+                "line": [
+                  "1701 S Shackleford Rd"
+                ],
+                "city": "Little Rock",
+                "state": "AR",
+                "postalCode": "72211-4335",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O5cec35cb-ca56-453f-a1d3-fc5e20bab214"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/5cec35cb-ca56-453f-a1d3-fc5e20bab214/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "710eea77-1a9e-42cf-bdab-ee56306083f4",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O710eea77-1a9e-42cf-bdab-ee56306083f4",
+            "name": "Bay Area Hospital",
+            "address": [
+              {
+                "line": [
+                  "1775 Thompson Rd"
+                ],
+                "city": "Coos Bay",
+                "state": "OR",
+                "postalCode": "97420-2125",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O710eea77-1a9e-42cf-bdab-ee56306083f4"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/710eea77-1a9e-42cf-bdab-ee56306083f4/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "e19f3f05-57a5-4b12-a164-8453dfcc6a5e",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oe19f3f05-57a5-4b12-a164-8453dfcc6a5e",
+            "name": "Bethesda Health Baptist Health South Florida",
+            "address": [
+              {
+                "line": [
+                  "2815 S Seacrest Blvd"
+                ],
+                "city": "Boynton Beach",
+                "state": "FL",
+                "postalCode": "33435-7934",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oe19f3f05-57a5-4b12-a164-8453dfcc6a5e"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/e19f3f05-57a5-4b12-a164-8453dfcc6a5e/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "59753f4d-fc7f-4929-b587-a7a7ff7bde03",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O59753f4d-fc7f-4929-b587-a7a7ff7bde03",
+            "name": "Cape Cod Healthcare",
+            "address": [
+              {
+                "line": [
+                  "88 Lewis Bay Rd"
+                ],
+                "city": "Hyannis",
+                "state": "MA",
+                "postalCode": "02601-5210",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O59753f4d-fc7f-4929-b587-a7a7ff7bde03"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/59753f4d-fc7f-4929-b587-a7a7ff7bde03/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "e71212a1-08a3-40bc-88aa-974471e03d3e",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oe71212a1-08a3-40bc-88aa-974471e03d3e",
+            "name": "Cape Regional Medical Center",
+            "address": [
+              {
+                "line": [
+                  "2 Stone Harbor Blvd"
+                ],
+                "city": "Cape May Court House",
+                "state": "NJ",
+                "postalCode": "08210-2138",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oe71212a1-08a3-40bc-88aa-974471e03d3e"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/e71212a1-08a3-40bc-88aa-974471e03d3e/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "9bf27703-dcb7-4f20-a363-35a28d8bbf38",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O9bf27703-dcb7-4f20-a363-35a28d8bbf38",
+            "name": "Catholic Health",
+            "address": [
+              {
+                "line": [
+                  "144 Genesee St"
+                ],
+                "city": "Buffalo",
+                "state": "NY",
+                "postalCode": "14203-1560",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O9bf27703-dcb7-4f20-a363-35a28d8bbf38"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/9bf27703-dcb7-4f20-a363-35a28d8bbf38/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "b9b77dc1-8db8-486e-b0ce-6b2a89edb7e5",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Ob9b77dc1-8db8-486e-b0ce-6b2a89edb7e5",
+            "name": "CentraState Healthcare System",
+            "address": [
+              {
+                "line": [
+                  "901 W Main St"
+                ],
+                "city": "Freehold",
+                "state": "NJ",
+                "postalCode": "07728-2537",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Ob9b77dc1-8db8-486e-b0ce-6b2a89edb7e5"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/b9b77dc1-8db8-486e-b0ce-6b2a89edb7e5/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9",
+            "name": "Crouse Hospital",
+            "address": [
+              {
+                "line": [
+                  "736 Irving Ave"
+                ],
+                "city": "Syracuse",
+                "state": "NY",
+                "postalCode": "13210-1687",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "acbac89f-af87-49b4-ac98-0111c80ac50e",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oacbac89f-af87-49b4-ac98-0111c80ac50e",
+            "name": "Garden City Hospital",
+            "address": [
+              {
+                "line": [
+                  "6245 N Inkster Rd"
+                ],
+                "city": "Garden City",
+                "state": "MI",
+                "postalCode": "48135-4001",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oacbac89f-af87-49b4-ac98-0111c80ac50e"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/acbac89f-af87-49b4-ac98-0111c80ac50e/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "610e8cdb-2c3e-496a-b07b-c914f86e14f3",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O610e8cdb-2c3e-496a-b07b-c914f86e14f3",
+            "name": "Greenwood Leflore Hospital",
+            "address": [
+              {
+                "line": [
+                  "1401 River Rd"
+                ],
+                "city": "Greenwood",
+                "state": "MS",
+                "postalCode": "38930-4030",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O610e8cdb-2c3e-496a-b07b-c914f86e14f3"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/610e8cdb-2c3e-496a-b07b-c914f86e14f3/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "b8387c42-2bb1-4fa9-94a8-9fe03ababf1c",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Ob8387c42-2bb1-4fa9-94a8-9fe03ababf1c",
+            "name": "Hawaii Health System Corp",
+            "address": [
+              {
+                "line": [
+                  "3675 Kilauea Ave"
+                ],
+                "city": "Honolulu",
+                "state": "HI",
+                "postalCode": "96816-2333",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Ob8387c42-2bb1-4fa9-94a8-9fe03ababf1c"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/b8387c42-2bb1-4fa9-94a8-9fe03ababf1c/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "20eda2fa-ebed-437e-8b30-7ddd2a35effa",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O20eda2fa-ebed-437e-8b30-7ddd2a35effa",
+            "name": "Holy Redeemer Hospital",
+            "address": [
+              {
+                "line": [
+                  "667 Welsh Rd"
+                ],
+                "city": "Huntingdon Valley",
+                "state": "PA",
+                "postalCode": "19006-6309",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O20eda2fa-ebed-437e-8b30-7ddd2a35effa"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/20eda2fa-ebed-437e-8b30-7ddd2a35effa/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "29d5e7f6-9579-4aa3-8893-01210e29a651",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O29d5e7f6-9579-4aa3-8893-01210e29a651",
+            "name": "Howard University Hospital",
+            "address": [
+              {
+                "line": [
+                  "2041 Georgia Ave"
+                ],
+                "city": "Washington",
+                "state": "DC",
+                "postalCode": "20060-0001",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O29d5e7f6-9579-4aa3-8893-01210e29a651"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/29d5e7f6-9579-4aa3-8893-01210e29a651/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "5e5ac40c-fee9-4710-b84c-a8f15dec5750",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O5e5ac40c-fee9-4710-b84c-a8f15dec5750",
+            "name": "Ingalls Health System",
+            "address": [
+              {
+                "line": [
+                  "1 Ingalls Dr"
+                ],
+                "city": "Harvey",
+                "state": "IL",
+                "postalCode": "60426-3558",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O5e5ac40c-fee9-4710-b84c-a8f15dec5750"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/5e5ac40c-fee9-4710-b84c-a8f15dec5750/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "c030faeb-65aa-4fe6-b969-2d16df0bbbf7",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oc030faeb-65aa-4fe6-b969-2d16df0bbbf7",
+            "name": "Lake Health",
+            "address": [
+              {
+                "line": [
+                  "7590 Auburn Rd"
+                ],
+                "city": "Painesville",
+                "state": "OH",
+                "postalCode": "44077-9176",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oc030faeb-65aa-4fe6-b969-2d16df0bbbf7"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/c030faeb-65aa-4fe6-b969-2d16df0bbbf7/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "0961344f-cd79-4193-b040-37669ae302a2",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O0961344f-cd79-4193-b040-37669ae302a2",
+            "name": "Long Island Community Hospital",
+            "address": [
+              {
+                "line": [
+                  "101 Hospital Rd"
+                ],
+                "city": "East Patchogue",
+                "state": "NY",
+                "postalCode": "11772-4870",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O0961344f-cd79-4193-b040-37669ae302a2"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/0961344f-cd79-4193-b040-37669ae302a2/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "75eca3cd-998f-432e-bfe8-402fa3cd1d00",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O75eca3cd-998f-432e-bfe8-402fa3cd1d00",
+            "name": "Mountain States Health Alliance",
+            "address": [
+              {
+                "line": [
+                  "400 N State Of Franklin Rd"
+                ],
+                "city": "Johnson City",
+                "state": "TN",
+                "postalCode": "37604-6035",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O75eca3cd-998f-432e-bfe8-402fa3cd1d00"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/75eca3cd-998f-432e-bfe8-402fa3cd1d00/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "118786cd-a5ec-4920-96f9-757c12e60137",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O118786cd-a5ec-4920-96f9-757c12e60137",
+            "name": "Nacogdoches Memorial Hospital",
+            "address": [
+              {
+                "line": [
+                  "1204 N Mound St"
+                ],
+                "city": "Nacogdoches",
+                "state": "TX",
+                "postalCode": "75961-4027",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O118786cd-a5ec-4920-96f9-757c12e60137"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/118786cd-a5ec-4920-96f9-757c12e60137/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "87b13152-c009-4570-8dd1-30220e3ffccb",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O87b13152-c009-4570-8dd1-30220e3ffccb",
+            "name": "New England Baptist Hospital",
+            "address": [
+              {
+                "line": [
+                  "125 Parker Hill Ave"
+                ],
+                "city": "Roxbury Crossing",
+                "state": "MA",
+                "postalCode": "02120-2847",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O87b13152-c009-4570-8dd1-30220e3ffccb"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/87b13152-c009-4570-8dd1-30220e3ffccb/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "7b369db7-2eec-4328-8928-30b66cd39a3a",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O7b369db7-2eec-4328-8928-30b66cd39a3a",
+            "name": "Northwest Hospital and Medical Center",
+            "address": [
+              {
+                "line": [
+                  "1550 N 115th St"
+                ],
+                "city": "Seattle",
+                "state": "WA",
+                "postalCode": "98133-8401",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O7b369db7-2eec-4328-8928-30b66cd39a3a"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/7b369db7-2eec-4328-8928-30b66cd39a3a/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "be754400-3834-4653-96ed-453314fc77d8",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Obe754400-3834-4653-96ed-453314fc77d8",
+            "name": "Peconic Bay Medical Center",
+            "address": [
+              {
+                "line": [
+                  "1300 Roanoke Ave"
+                ],
+                "city": "Riverhead",
+                "state": "NY",
+                "postalCode": "11901-2031",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Obe754400-3834-4653-96ed-453314fc77d8"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/be754400-3834-4653-96ed-453314fc77d8/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1",
+            "name": "R0SE - Soarian Clinicals Public Sandbox",
+            "address": [
+              {
+                "line": [
+                  "2800 Rock Creek Pkwy"
+                ],
+                "city": "Kansas City",
+                "state": "MO",
+                "postalCode": "64117-2521",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "d099f3aa-0761-4b26-afb2-b7a6d565f0ce",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Od099f3aa-0761-4b26-afb2-b7a6d565f0ce",
+            "name": "Saint Joseph's Medical Center",
+            "address": [
+              {
+                "line": [
+                  "127 S Broadway"
+                ],
+                "city": "Yonkers",
+                "state": "NY",
+                "postalCode": "10701-4006",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Od099f3aa-0761-4b26-afb2-b7a6d565f0ce"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/d099f3aa-0761-4b26-afb2-b7a6d565f0ce/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "1c8544d5-3744-479c-ad10-a92153184d75",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O1c8544d5-3744-479c-ad10-a92153184d75",
+            "name": "Southampton Hospital",
+            "address": [
+              {
+                "line": [
+                  "240 Meeting House Ln"
+                ],
+                "city": "Southampton",
+                "state": "NY",
+                "postalCode": "11968-5009",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O1c8544d5-3744-479c-ad10-a92153184d75"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/1c8544d5-3744-479c-ad10-a92153184d75/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "fc36758d-3d0d-4ea2-93a7-8d9c3f463f00",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Ofc36758d-3d0d-4ea2-93a7-8d9c3f463f00",
+            "name": "Southern New Hampshire Health System",
+            "address": [
+              {
+                "line": [
+                  "8 Prospect St"
+                ],
+                "city": "Nashua",
+                "state": "NH",
+                "postalCode": "03060-3925",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Ofc36758d-3d0d-4ea2-93a7-8d9c3f463f00"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/fc36758d-3d0d-4ea2-93a7-8d9c3f463f00/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "8c4b7810-13a5-4a82-9e13-439865842bde",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O8c4b7810-13a5-4a82-9e13-439865842bde",
+            "name": "St. Mary's Medical Center",
+            "address": [
+              {
+                "line": [
+                  "2900 1st Ave"
+                ],
+                "city": "Huntington",
+                "state": "WV",
+                "postalCode": "25702-1241",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O8c4b7810-13a5-4a82-9e13-439865842bde"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/8c4b7810-13a5-4a82-9e13-439865842bde/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "42848181-4d10-4640-9fb1-3da5b778a8ab",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O42848181-4d10-4640-9fb1-3da5b778a8ab",
+            "name": "Temple Health Jeanes Hospital",
+            "address": [
+              {
+                "line": [
+                  "7600 Central Ave"
+                ],
+                "city": "Philadelphia",
+                "state": "PA",
+                "postalCode": "19111-2442",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O42848181-4d10-4640-9fb1-3da5b778a8ab"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/42848181-4d10-4640-9fb1-3da5b778a8ab/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "842d94c1-b0f5-4184-a4df-f56e9e72e1d3",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O842d94c1-b0f5-4184-a4df-f56e9e72e1d3",
+            "name": "Tufts Medical Center",
+            "address": [
+              {
+                "line": [
+                  "750 Washington St Ste 257"
+                ],
+                "city": "Boston",
+                "state": "MA",
+                "postalCode": "02111-1533",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O842d94c1-b0f5-4184-a4df-f56e9e72e1d3"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/842d94c1-b0f5-4184-a4df-f56e9e72e1d3/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "85a1aeea-0a1b-4f73-95b1-6d8e34f513ef",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O85a1aeea-0a1b-4f73-95b1-6d8e34f513ef",
+            "name": "UHS Health Care System",
+            "address": [
+              {
+                "line": [
+                  "10-42 Mitchell Ave"
+                ],
+                "city": "Binghamton",
+                "state": "NY",
+                "postalCode": "13903-1617",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O85a1aeea-0a1b-4f73-95b1-6d8e34f513ef"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/85a1aeea-0a1b-4f73-95b1-6d8e34f513ef/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "7b7ea749-dbe4-4414-b730-5843f9cf7acf",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O7b7ea749-dbe4-4414-b730-5843f9cf7acf",
+            "name": "UT Health East Texas",
+            "address": [
+              {
+                "line": [
+                  "1000 S Beckham Dr"
+                ],
+                "city": "Tyler",
+                "state": "TX",
+                "postalCode": "75701-1908",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O7b7ea749-dbe4-4414-b730-5843f9cf7acf"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/7b7ea749-dbe4-4414-b730-5843f9cf7acf/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "e3780ef1-62a9-42cb-b6ff-304b3fcb2e6c",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oe3780ef1-62a9-42cb-b6ff-304b3fcb2e6c",
+            "name": "Weirton Medical Center",
+            "address": [
+              {
+                "line": [
+                  "601 Colliers Way"
+                ],
+                "city": "Weirton",
+                "state": "WV",
+                "postalCode": "26062-5014",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oe3780ef1-62a9-42cb-b6ff-304b3fcb2e6c"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/e3780ef1-62a9-42cb-b6ff-304b3fcb2e6c/"
+      }
+    }
+  ]
+}
