@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-patient-dstu2",
   "type": "collection",
-  "total": 1658,
+  "total": 1660,
   "entry": [
     {
       "resource": {
@@ -4390,15 +4390,15 @@
           {
             "resourceType": "Organization",
             "id": "O1d6c927a-8fe8-4114-911c-8498e2eb642e",
-            "name": "Neurological Specialists, PC",
+            "name": "Neurology & Sleep Associates",
             "address": [
               {
                 "line": [
-                  "100 Medical Center Dr # 402"
+                  "820 Goodyear Ave"
                 ],
                 "city": "Gadsden",
                 "state": "Alabama",
-                "postalCode": "35903-1142",
+                "postalCode": "35903-1146",
                 "country": "United States of America"
               }
             ]
@@ -10763,35 +10763,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "4c623f6b-c9a7-4057-a1cb-6b2e1335e914",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O4c623f6b-c9a7-4057-a1cb-6b2e1335e914",
-            "name": "Volunteers of America",
-            "address": [
-              {
-                "line": [
-                  "7625 Metro Blvd"
-                ],
-                "city": "Minneapolis",
-                "state": "Minnesota",
-                "postalCode": "55439-3053",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O4c623f6b-c9a7-4057-a1cb-6b2e1335e914"
-        },
-        "address": "https://fhir-myrecord.cerner.com/dstu2/4c623f6b-c9a7-4057-a1cb-6b2e1335e914/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "4c6adde2-a0d9-4a6e-863e-ae8135e53612",
         "contained": [
           {
@@ -12595,7 +12566,7 @@
           {
             "resourceType": "Organization",
             "id": "O5c7467fb-60f9-4172-add4-57667a5dfcfa",
-            "name": "ChristianaCare Health Services, Inc.",
+            "name": "Christiana Care Health Services, Inc.",
             "address": [
               {
                 "line": [
@@ -48071,6 +48042,93 @@
           "id": "#Of24ac13d-3953-486e-b046-3f6f7cc41dd9"
         },
         "address": "https://fhir-myrecord.cerner.com/dstu2/f24ac13d-3953-486e-b046-3f6f7cc41dd9/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "1762c86e-d105-4afc-a3d1-9e89748c9af3",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O1762c86e-d105-4afc-a3d1-9e89748c9af3",
+            "name": "Miners' Colfax Medical Center",
+            "address": [
+              {
+                "line": [
+                  "203 Hospital Dr"
+                ],
+                "city": "Raton",
+                "state": "New Mexico",
+                "postalCode": "87740-2099",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O1762c86e-d105-4afc-a3d1-9e89748c9af3"
+        },
+        "address": "https://fhir-myrecord.cerner.com/dstu2/1762c86e-d105-4afc-a3d1-9e89748c9af3/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "a1aa7562-925a-46a1-8ac2-dbe276eb4e56",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oa1aa7562-925a-46a1-8ac2-dbe276eb4e56",
+            "name": "Gila River Health Care Corporation",
+            "address": [
+              {
+                "line": [
+                  "483 W. Seed Farm Road"
+                ],
+                "city": "Sacaton",
+                "state": "Arizona",
+                "postalCode": "85147-0001",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oa1aa7562-925a-46a1-8ac2-dbe276eb4e56"
+        },
+        "address": "https://fhir-myrecord.cerner.com/dstu2/a1aa7562-925a-46a1-8ac2-dbe276eb4e56/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "62b49e98-30bd-422f-99ce-a2bf06848427",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O62b49e98-30bd-422f-99ce-a2bf06848427",
+            "name": "Milton Hershey School",
+            "address": [
+              {
+                "line": [
+                  "1201 Homestead Ln"
+                ],
+                "city": "Hershey",
+                "state": "Pennsylvania",
+                "postalCode": "17033",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O62b49e98-30bd-422f-99ce-a2bf06848427"
+        },
+        "address": "https://fhir-myrecord.cerner.com/dstu2/62b49e98-30bd-422f-99ce-a2bf06848427/"
       }
     }
   ]
