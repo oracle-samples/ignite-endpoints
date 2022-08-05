@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-dstu2",
   "type": "collection",
-  "total": 1665,
+  "total": 1664,
   "entry": [
     {
       "resource": {
@@ -7984,15 +7984,15 @@
           {
             "resourceType": "Organization",
             "id": "O36d990dd-0e06-4a85-bc0f-4a8859d77748",
-            "name": "Cardiocare",
+            "name": "Cardio MD",
             "address": [
               {
                 "line": [
-                  "212-213 Courtyard Drive"
+                  "1200 US Hwy 22 East, Suite 17"
                 ],
-                "city": "Hillsborough",
+                "city": "Bridgewater",
                 "state": "New Jersey",
-                "postalCode": "08844-4247",
+                "postalCode": "08807-2943",
                 "country": "United States of America"
               }
             ]
@@ -14767,7 +14767,7 @@
           {
             "resourceType": "Organization",
             "id": "O6f73eb02-7a46-4cae-8907-0208d6de890c",
-            "name": "Palomar Health, a local California Healthcare District",
+            "name": "Palomar Health",
             "address": [
               {
                 "line": [
@@ -18585,35 +18585,6 @@
           "id": "#O8aea60f2-7e84-4f0f-9c4a-ad23740ef3c8"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/8aea60f2-7e84-4f0f-9c4a-ad23740ef3c8/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "8af40abf-26a7-44e3-a87a-572c3d78131b",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O8af40abf-26a7-44e3-a87a-572c3d78131b",
-            "name": "Astria Sunnyside Hospital",
-            "address": [
-              {
-                "line": [
-                  "1016 Tacoma Ave"
-                ],
-                "city": "Sunnyside",
-                "state": "Washington",
-                "postalCode": "98944-0979",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O8af40abf-26a7-44e3-a87a-572c3d78131b"
-        },
-        "address": "https://fhir-ehr.cerner.com/dstu2/8af40abf-26a7-44e3-a87a-572c3d78131b/"
       }
     },
     {
@@ -29898,35 +29869,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "c1a92d40-9e4c-42a9-a69d-27d782800e16",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oc1a92d40-9e4c-42a9-a69d-27d782800e16",
-            "name": "St. Johns Medical Center",
-            "address": [
-              {
-                "line": [
-                  "625 East Broadway"
-                ],
-                "city": "Jackson",
-                "state": "Wyoming",
-                "postalCode": "83001",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oc1a92d40-9e4c-42a9-a69d-27d782800e16"
-        },
-        "address": "https://fhir-ehr.cerner.com/dstu2/c1a92d40-9e4c-42a9-a69d-27d782800e16/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "c1c7a35b-114f-408e-b606-42a9d0a305a4",
         "contained": [
           {
@@ -33808,33 +33750,6 @@
           "id": "#Oe1cd2646-a978-48a1-b1dd-27086f7bcfa4"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/e1cd2646-a978-48a1-b1dd-27086f7bcfa4/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "e279870b-cb9f-4694-ba74-521813405c9a",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oe279870b-cb9f-4694-ba74-521813405c9a",
-            "name": "Urgent Care Aruba",
-            "address": [
-              {
-                "line": [
-                  "Noord 63"
-                ],
-                "city": "Dutch Caribbean",
-                "country": "Aruba"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oe279870b-cb9f-4694-ba74-521813405c9a"
-        },
-        "address": "https://fhir-ehr.cerner.com/dstu2/e279870b-cb9f-4694-ba74-521813405c9a/"
       }
     },
     {
@@ -41587,7 +41502,7 @@
           {
             "resourceType": "Organization",
             "id": "O6edd93a1-7391-4938-bcd9-ebe248fd573e",
-            "name": "Olean Medical Group LLP",
+            "name": "Olean Medical Practice PLLC",
             "address": [
               {
                 "line": [
@@ -47759,35 +47674,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "2229c7e9-33af-4844-8811-015c0ae6032b",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O2229c7e9-33af-4844-8811-015c0ae6032b",
-            "name": "Many Rivers Whole Health",
-            "address": [
-              {
-                "line": [
-                  "915 1st Ave South"
-                ],
-                "city": "Great Falls",
-                "state": "Montana",
-                "postalCode": "59403",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O2229c7e9-33af-4844-8811-015c0ae6032b"
-        },
-        "address": "https://fhir-ehr.cerner.com/dstu2/2229c7e9-33af-4844-8811-015c0ae6032b/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "b2651172-99ed-43dd-9814-59d9dbd8df43",
         "contained": [
           {
@@ -48274,6 +48160,93 @@
           "id": "#O3585fb85-29d2-4cc4-ba39-28265125f97f"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/3585fb85-29d2-4cc4-ba39-28265125f97f/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "2026d4f0-5ca8-4711-85ca-2ac1241cb575",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O2026d4f0-5ca8-4711-85ca-2ac1241cb575",
+            "name": "Exodus Recovery, Inc.",
+            "address": [
+              {
+                "line": [
+                  "9808 Venice Blvd Ste 700"
+                ],
+                "city": "CULVER CITY",
+                "state": "California",
+                "postalCode": "90232-6824",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O2026d4f0-5ca8-4711-85ca-2ac1241cb575"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/2026d4f0-5ca8-4711-85ca-2ac1241cb575/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "ef305183-7191-4c91-b4e4-93d680f39bae",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oef305183-7191-4c91-b4e4-93d680f39bae",
+            "name": "DaVita Inc.",
+            "address": [
+              {
+                "line": [
+                  "2000 16th St."
+                ],
+                "city": "Denver",
+                "state": "Colorado",
+                "postalCode": "80202-5117",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oef305183-7191-4c91-b4e4-93d680f39bae"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/ef305183-7191-4c91-b4e4-93d680f39bae/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "474ddf0e-e459-4fdc-bb00-29da6ac3f85d",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O474ddf0e-e459-4fdc-bb00-29da6ac3f85d",
+            "name": "Indiana Foot & Ankle Specialist",
+            "address": [
+              {
+                "line": [
+                  "2106 W McGalliard Rd"
+                ],
+                "city": "Muncie",
+                "state": "Indiana",
+                "postalCode": "47304",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O474ddf0e-e459-4fdc-bb00-29da6ac3f85d"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/474ddf0e-e459-4fdc-bb00-29da6ac3f85d/"
       }
     }
   ]
