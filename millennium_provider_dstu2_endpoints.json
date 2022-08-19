@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-dstu2",
   "type": "collection",
-  "total": 1664,
+  "total": 1670,
   "entry": [
     {
       "resource": {
@@ -930,6 +930,35 @@
           "id": "#O05a97b88-f719-405f-abbb-125ac71b7cee"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/05a97b88-f719-405f-abbb-125ac71b7cee/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "0635029c-ad2b-4c76-90de-10b216b6fefa",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O0635029c-ad2b-4c76-90de-10b216b6fefa",
+            "name": "Healthe Employer Clinic",
+            "address": [
+              {
+                "line": [
+                  "2800 Rockcreek Pkwy"
+                ],
+                "city": "Kansas City",
+                "state": "Missouri",
+                "postalCode": "64117-2521",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O0635029c-ad2b-4c76-90de-10b216b6fefa"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/0635029c-ad2b-4c76-90de-10b216b6fefa/"
       }
     },
     {
@@ -16758,6 +16787,35 @@
           "id": "#O7e89f9ba-2516-4eb3-98da-9f8cb196a8d0"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/7e89f9ba-2516-4eb3-98da-9f8cb196a8d0/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "7e8a1d3b-132c-4f07-97be-f81fc4642359",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O7e8a1d3b-132c-4f07-97be-f81fc4642359",
+            "name": "Healthe Employer Clinic",
+            "address": [
+              {
+                "line": [
+                  "2800 Rockcreek Pkwy"
+                ],
+                "city": "Kansas City",
+                "state": "Missouri",
+                "postalCode": "64117-2521",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O7e8a1d3b-132c-4f07-97be-f81fc4642359"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/7e8a1d3b-132c-4f07-97be-f81fc4642359/"
       }
     },
     {
@@ -36075,6 +36133,35 @@
     {
       "resource": {
         "resourceType": "Endpoint",
+        "id": "f4df74a1-1aed-405a-a4d2-f72d12f8011b",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Of4df74a1-1aed-405a-a4d2-f72d12f8011b",
+            "name": "Healthe Employer Clinic",
+            "address": [
+              {
+                "line": [
+                  "2800 Rockcreek Pkwy"
+                ],
+                "city": "Kansas City",
+                "state": "Missouri",
+                "postalCode": "64117-2521",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Of4df74a1-1aed-405a-a4d2-f72d12f8011b"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/f4df74a1-1aed-405a-a4d2-f72d12f8011b/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
         "id": "f4f5fc7f-b635-4b26-8ba6-058ca1c8dc4d",
         "contained": [
           {
@@ -38418,6 +38505,35 @@
           "id": "#OjqkvYbZoqhtQ6PherLCPc_R4bZXPPDZZ"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/jqkvYbZoqhtQ6PherLCPc_R4bZXPPDZZ/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "k25GZIDuR3jejujuvB5ckWsZhzptSynD",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Ok25GZIDuR3jejujuvB5ckWsZhzptSynD",
+            "name": "Healthe Employer Clinic",
+            "address": [
+              {
+                "line": [
+                  "2800 Rockcreek Pkwy"
+                ],
+                "city": "Kansas City",
+                "state": "Missouri",
+                "postalCode": "64117-2521",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Ok25GZIDuR3jejujuvB5ckWsZhzptSynD"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/k25GZIDuR3jejujuvB5ckWsZhzptSynD/"
       }
     },
     {
@@ -44368,6 +44484,35 @@
     {
       "resource": {
         "resourceType": "Endpoint",
+        "id": "28b635e9-1338-4104-a4e8-4056bb914688",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O28b635e9-1338-4104-a4e8-4056bb914688",
+            "name": "Healthe Employer Clinic",
+            "address": [
+              {
+                "line": [
+                  "2800 Rockcreek Pkwy"
+                ],
+                "city": "Kansas City",
+                "state": "Missouri",
+                "postalCode": "64117-2521",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O28b635e9-1338-4104-a4e8-4056bb914688"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/28b635e9-1338-4104-a4e8-4056bb914688/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
         "id": "3b23ba82-4045-4c42-b34e-b749fc14463d",
         "contained": [
           {
@@ -48247,6 +48392,35 @@
           "id": "#O474ddf0e-e459-4fdc-bb00-29da6ac3f85d"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/474ddf0e-e459-4fdc-bb00-29da6ac3f85d/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "1511ffe1-3474-454c-96b9-25125c8182f0",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O1511ffe1-3474-454c-96b9-25125c8182f0",
+            "name": "El Centro Regional Medical Center",
+            "address": [
+              {
+                "line": [
+                  "1415 Ross Ave"
+                ],
+                "city": "El Centro",
+                "state": "California",
+                "postalCode": "92243-4306",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O1511ffe1-3474-454c-96b9-25125c8182f0"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/1511ffe1-3474-454c-96b9-25125c8182f0/"
       }
     }
   ]
