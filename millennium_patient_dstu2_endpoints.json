@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-patient-dstu2",
   "type": "collection",
-  "total": 1670,
+  "total": 1669,
   "entry": [
     {
       "resource": {
@@ -23544,35 +23544,6 @@
           "id": "#OMgfJfJ70Dbsm4ZMgvz93Y8Q5rmD9yGq5"
         },
         "address": "https://fhir-myrecord.cerner.com/dstu2/MgfJfJ70Dbsm4ZMgvz93Y8Q5rmD9yGq5/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "MmWbh382tKlbvAIA1_DeLlIjYVSwroch",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "OMmWbh382tKlbvAIA1_DeLlIjYVSwroch",
-            "name": "Tucson Physician Group Holdings LLC",
-            "address": [
-              {
-                "line": [
-                  "6567 E Carondelet Dr Ste 305"
-                ],
-                "city": "Tucson",
-                "state": "Arizona",
-                "postalCode": "85710-6152",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#OMmWbh382tKlbvAIA1_DeLlIjYVSwroch"
-        },
-        "address": "https://fhir-myrecord.cerner.com/dstu2/MmWbh382tKlbvAIA1_DeLlIjYVSwroch/"
       }
     },
     {
