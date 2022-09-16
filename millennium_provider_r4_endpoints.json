@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-r4",
   "type": "collection",
-  "total": 1669,
+  "total": 1668,
   "entry": [
     {
       "resource": {
@@ -4858,11 +4858,11 @@
             "address": [
               {
                 "line": [
-                  "3100 SW 62nd Ave"
+                  "6200 Sunset Drive, Suite 303"
                 ],
                 "city": "Miami",
                 "state": "Florida",
-                "postalCode": "33155",
+                "postalCode": "33143-4828",
                 "country": "United States of America"
               }
             ]
@@ -8162,9 +8162,9 @@
             "address": [
               {
                 "line": [
-                  "800 S ASH ST"
+                  "800 S Ash St"
                 ],
-                "city": "NEVADA",
+                "city": "Nevada",
                 "state": "Missouri",
                 "postalCode": "64772-3223",
                 "country": "United States of America"
@@ -23549,6 +23549,35 @@
     {
       "resource": {
         "resourceType": "Endpoint",
+        "id": "MmWbh382tKlbvAIA1_DeLlIjYVSwroch",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "OMmWbh382tKlbvAIA1_DeLlIjYVSwroch",
+            "name": "Tucson Physician Group Holdings LLC",
+            "address": [
+              {
+                "line": [
+                  "6567 E Carondelet Dr Ste 305"
+                ],
+                "city": "Tucson",
+                "state": "Arizona",
+                "postalCode": "85710-6152",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#OMmWbh382tKlbvAIA1_DeLlIjYVSwroch"
+        },
+        "address": "https://fhir-ehr.cerner.com/r4/MmWbh382tKlbvAIA1_DeLlIjYVSwroch/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
         "id": "MqJcwMg9cqSqwyzaFu8TFRHJQ9biDbIM",
         "contained": [
           {
@@ -28530,35 +28559,6 @@
           "id": "#Ob7fee4ea-79bc-41bc-ae6c-4d9cef251670"
         },
         "address": "https://fhir-ehr.cerner.com/r4/b7fee4ea-79bc-41bc-ae6c-4d9cef251670/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "b8627053-d3d2-425c-a909-adf52106109f",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Ob8627053-d3d2-425c-a909-adf52106109f",
-            "name": "Dr. Godwin Molokwu",
-            "address": [
-              {
-                "line": [
-                  "688 Stuyvesant Ave"
-                ],
-                "city": "Irvington",
-                "state": "New Jersey",
-                "postalCode": "07111-4815",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Ob8627053-d3d2-425c-a909-adf52106109f"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/b8627053-d3d2-425c-a909-adf52106109f/"
       }
     },
     {
@@ -39868,35 +39868,6 @@
           "id": "#Ot0FnDeiv5UB5yBJtCG5ByjAAa3LXYuNV"
         },
         "address": "https://fhir-ehr.cerner.com/r4/t0FnDeiv5UB5yBJtCG5ByjAAa3LXYuNV/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "t6zkfsuZfhp6nLxbbqM31_W5iLCFlhpK",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Ot6zkfsuZfhp6nLxbbqM31_W5iLCFlhpK",
-            "name": "Total Foot Care, PA",
-            "address": [
-              {
-                "line": [
-                  "2700 Silverside Road, Ste 3B"
-                ],
-                "city": "Wilmington",
-                "state": "Delaware",
-                "postalCode": "19810-3724",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Ot6zkfsuZfhp6nLxbbqM31_W5iLCFlhpK"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/t6zkfsuZfhp6nLxbbqM31_W5iLCFlhpK/"
       }
     },
     {
