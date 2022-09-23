@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-patient-r4",
   "type": "collection",
-  "total": 1668,
+  "total": 1663,
   "entry": [
     {
       "resource": {
@@ -2422,7 +2422,7 @@
             "address": [
               {
                 "line": [
-                  "835 Hospital Road"
+                  "835 Hospital Rd"
                 ],
                 "city": "Indiana",
                 "state": "Pennsylvania",
@@ -5318,15 +5318,15 @@
           {
             "resourceType": "Organization",
             "id": "O24a392d6-e8f4-4f4c-9344-2c748653164b",
-            "name": "Nanticoke Health Services",
+            "name": "TidalHealth",
             "address": [
               {
                 "line": [
-                  "801 Middleford Rd"
+                  "Attn: Disbursements - Co 21, PO Box 3060"
                 ],
-                "city": "Seaford",
-                "state": "Delaware",
-                "postalCode": "19973-3636",
+                "city": "Orem",
+                "state": "Utah",
+                "postalCode": "84059-3060",
                 "country": "United States of America"
               }
             ]
@@ -7280,35 +7280,6 @@
           "id": "#O31c1d82c-d665-40a0-b8bd-9d7f82d8d52b"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/31c1d82c-d665-40a0-b8bd-9d7f82d8d52b/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "31d30d44-6840-4141-93e1-b13c2f0041c7",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O31d30d44-6840-4141-93e1-b13c2f0041c7",
-            "name": "Dover Cardiology Center",
-            "address": [
-              {
-                "line": [
-                  "413 Lakehurst Rd"
-                ],
-                "city": "Toms River",
-                "state": "New Jersey",
-                "postalCode": "08755-7378",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O31d30d44-6840-4141-93e1-b13c2f0041c7"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/31d30d44-6840-4141-93e1-b13c2f0041c7/"
       }
     },
     {
@@ -11116,7 +11087,7 @@
           {
             "resourceType": "Organization",
             "id": "O4f368659-4db2-486e-913c-e2c2f5852845",
-            "name": "Regional Urology",
+            "name": "Ochsner LSU Health System of North Louisiana",
             "address": [
               {
                 "line": [
@@ -17845,11 +17816,11 @@
             "address": [
               {
                 "line": [
-                  "376 Main St"
+                  "711 S Broadway St"
                 ],
-                "city": "Sunset",
+                "city": "Church Point",
                 "state": "Louisiana",
-                "postalCode": "70584-5920",
+                "postalCode": "70525",
                 "country": "United States of America"
               }
             ]
@@ -18237,35 +18208,6 @@
           "id": "#O88Br3I-ehV_mZejJLzCjr37wE_2hm9s-"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/88Br3I-ehV_mZejJLzCjr37wE_2hm9s-/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "88a053b9-e911-4a1e-84c2-2a6948c03dc0",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O88a053b9-e911-4a1e-84c2-2a6948c03dc0",
-            "name": "Associates in Internal Medicine PA",
-            "address": [
-              {
-                "line": [
-                  "3700 US Highway 1 S"
-                ],
-                "city": "St. Augustine",
-                "state": "Florida",
-                "postalCode": "32086-7150",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O88a053b9-e911-4a1e-84c2-2a6948c03dc0"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/88a053b9-e911-4a1e-84c2-2a6948c03dc0/"
       }
     },
     {
@@ -23201,35 +23143,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "K6KOCY0OtMauBRzchuHhxymqUlAkA_Bs",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "OK6KOCY0OtMauBRzchuHhxymqUlAkA_Bs",
-            "name": "Jefferson Neurological Associates",
-            "address": [
-              {
-                "line": [
-                  "3800 Houma Blvd Ste 205"
-                ],
-                "city": "Metairie",
-                "state": "Louisiana",
-                "postalCode": "70006-4151",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#OK6KOCY0OtMauBRzchuHhxymqUlAkA_Bs"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/K6KOCY0OtMauBRzchuHhxymqUlAkA_Bs/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "K7r0JqNzwCCreORLHDZNhTb7SEfo_ZjL",
         "contained": [
           {
@@ -26273,35 +26186,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "a2e93d0a-b972-47aa-8ee9-e5ef74e392fa",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oa2e93d0a-b972-47aa-8ee9-e5ef74e392fa",
-            "name": "James M McCullough, MD",
-            "address": [
-              {
-                "line": [
-                  "4228 Houma Blvd Suite 140"
-                ],
-                "city": "Metairie",
-                "state": "Louisiana",
-                "postalCode": "70006-3019",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oa2e93d0a-b972-47aa-8ee9-e5ef74e392fa"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/a2e93d0a-b972-47aa-8ee9-e5ef74e392fa/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "a30d0d06-099c-49a3-9d40-270ed7523c28",
         "contained": [
           {
@@ -26587,35 +26471,6 @@
           "id": "#Oa5287c52-a68a-471c-ad99-6b7cc3d9fc8e"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/a5287c52-a68a-471c-ad99-6b7cc3d9fc8e/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "a537a31a-6ff0-4d47-84e9-4a5026d0aaaf",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oa537a31a-6ff0-4d47-84e9-4a5026d0aaaf",
-            "name": "Mercado Foot and Ankle Center",
-            "address": [
-              {
-                "line": [
-                  "2940 Rollingridge Rd Suite 204"
-                ],
-                "city": "Naperville",
-                "state": "Illinois",
-                "postalCode": "60564-4217",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oa537a31a-6ff0-4d47-84e9-4a5026d0aaaf"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/a537a31a-6ff0-4d47-84e9-4a5026d0aaaf/"
       }
     },
     {
@@ -46001,11 +45856,11 @@
             "address": [
               {
                 "line": [
-                  "540 E. Canfield"
+                  "540 E Canfield"
                 ],
                 "city": "Detroit",
                 "state": "Michigan",
-                "postalCode": "48201-1928",
+                "postalCode": "48201",
                 "country": "United States of America"
               }
             ]
