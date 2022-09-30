@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-patient-r4",
   "type": "collection",
-  "total": 1663,
+  "total": 1639,
   "entry": [
     {
       "resource": {
@@ -1886,35 +1886,6 @@
           "id": "#O0d26bd04-9128-4f58-8e6d-ffda5cd00f89"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/0d26bd04-9128-4f58-8e6d-ffda5cd00f89/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "0d6b7f8e-7f46-4dfd-a38d-383c25bb2b73",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O0d6b7f8e-7f46-4dfd-a38d-383c25bb2b73",
-            "name": "Community Medical Centers, California Street (Pediatrics)",
-            "address": [
-              {
-                "line": [
-                  "2349 North California Street"
-                ],
-                "city": "Stockton",
-                "state": "California",
-                "postalCode": "95204-5505",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O0d6b7f8e-7f46-4dfd-a38d-383c25bb2b73"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/0d6b7f8e-7f46-4dfd-a38d-383c25bb2b73/"
       }
     },
     {
@@ -6821,35 +6792,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "2eheZ7AA_IS9-fVNDu4VNgOyhk0MfwTx",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O2eheZ7AA_IS9-fVNDu4VNgOyhk0MfwTx",
-            "name": "Cullman Heart & Urgent Care, P.C.",
-            "address": [
-              {
-                "line": [
-                  "1801 Parkview Drive, N.E."
-                ],
-                "city": "Cullman",
-                "state": "Alabama",
-                "postalCode": "35058-3618",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O2eheZ7AA_IS9-fVNDu4VNgOyhk0MfwTx"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/2eheZ7AA_IS9-fVNDu4VNgOyhk0MfwTx/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "2f200361-7791-4302-badd-31bba76d31ab",
         "contained": [
           {
@@ -7309,35 +7251,6 @@
           "id": "#O31d3d17c-a50c-4d78-bc5b-e9716826315e"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/31d3d17c-a50c-4d78-bc5b-e9716826315e/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "320cb157-6a7c-4bbf-99c2-9adf12a908e0",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O320cb157-6a7c-4bbf-99c2-9adf12a908e0",
-            "name": "Apex Partners, LLC",
-            "address": [
-              {
-                "line": [
-                  "30701 Lorain Road"
-                ],
-                "city": "North Olmsted",
-                "state": "Ohio",
-                "postalCode": "44070-6325",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O320cb157-6a7c-4bbf-99c2-9adf12a908e0"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/320cb157-6a7c-4bbf-99c2-9adf12a908e0/"
       }
     },
     {
@@ -8061,35 +7974,6 @@
           "id": "#O370a27ae-e433-405a-8270-a345a875a69f"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/370a27ae-e433-405a-8270-a345a875a69f/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "37d3d681-778c-4332-8da1-179f77e708bf",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O37d3d681-778c-4332-8da1-179f77e708bf",
-            "name": "Olmsted Medical Center",
-            "address": [
-              {
-                "line": [
-                  "1650 4th St SE"
-                ],
-                "city": "Rochester",
-                "state": "Minnesota",
-                "postalCode": "55904-4717",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O37d3d681-778c-4332-8da1-179f77e708bf"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/37d3d681-778c-4332-8da1-179f77e708bf/"
       }
     },
     {
@@ -9289,7 +9173,7 @@
           {
             "resourceType": "Organization",
             "id": "O42531be2-cc81-4ca4-b6c8-9b0ab56190c5",
-            "name": "Southeast Iowa Regional Medical Center",
+            "name": "Great River Health System",
             "address": [
               {
                 "line": [
@@ -10758,35 +10642,6 @@
           "id": "#O4c4aa7b2-6b2a-48a8-bb50-bd2c59fe99d0"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/4c4aa7b2-6b2a-48a8-bb50-bd2c59fe99d0/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "4c6adde2-a0d9-4a6e-863e-ae8135e53612",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O4c6adde2-a0d9-4a6e-863e-ae8135e53612",
-            "name": "Black & Veatch",
-            "address": [
-              {
-                "line": [
-                  "11401 Lamar Ave"
-                ],
-                "city": "Overland Park",
-                "state": "Kansas",
-                "postalCode": "66211-1508",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O4c6adde2-a0d9-4a6e-863e-ae8135e53612"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/4c6adde2-a0d9-4a6e-863e-ae8135e53612/"
       }
     },
     {
@@ -12532,35 +12387,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "5c654365-4e23-4939-9491-d281db1c1688",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O5c654365-4e23-4939-9491-d281db1c1688",
-            "name": "Hutzel Womens Health Specialists",
-            "address": [
-              {
-                "line": [
-                  "4727 Saint Antoine Suite 304"
-                ],
-                "city": "Detroit",
-                "state": "Michigan",
-                "postalCode": "48201-1461",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O5c654365-4e23-4939-9491-d281db1c1688"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/5c654365-4e23-4939-9491-d281db1c1688/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "5c7467fb-60f9-4172-add4-57667a5dfcfa",
         "contained": [
           {
@@ -12759,35 +12585,6 @@
           "id": "#O5f5b322c-2217-4325-ad8e-025b10008aca"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/5f5b322c-2217-4325-ad8e-025b10008aca/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "5z2vc_BqCThe9SF0zyVci517P1gq6r4I",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O5z2vc_BqCThe9SF0zyVci517P1gq6r4I",
-            "name": "West Jefferson Pulmonary Associates",
-            "address": [
-              {
-                "line": [
-                  "1111 Medical Center Boulevard Suite N504"
-                ],
-                "city": "Marrero",
-                "state": "Louisiana",
-                "postalCode": "70072-3151",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O5z2vc_BqCThe9SF0zyVci517P1gq6r4I"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/5z2vc_BqCThe9SF0zyVci517P1gq6r4I/"
       }
     },
     {
@@ -13020,35 +12817,6 @@
           "id": "#O615a8998-a903-4555-ae9a-819c3a1a157c"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/615a8998-a903-4555-ae9a-819c3a1a157c/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "615b7fd0-1a3d-4d15-b741-67add249edfe",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O615b7fd0-1a3d-4d15-b741-67add249edfe",
-            "name": "North Essex Medical Associates",
-            "address": [
-              {
-                "line": [
-                  "5 Franklin Avenue 609"
-                ],
-                "city": "Belleville",
-                "state": "New Jersey",
-                "postalCode": "07109-3566",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O615b7fd0-1a3d-4d15-b741-67add249edfe"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/615b7fd0-1a3d-4d15-b741-67add249edfe/"
       }
     },
     {
@@ -13947,35 +13715,6 @@
           "id": "#O6859fc00-fade-4513-94e1-93ef2b0f345b"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/6859fc00-fade-4513-94e1-93ef2b0f345b/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "685fe42d-fc55-43db-9f82-d66c673ec539",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O685fe42d-fc55-43db-9f82-d66c673ec539",
-            "name": "University of South Carolina School of Medicine Educational Trust",
-            "address": [
-              {
-                "line": [
-                  "6311 Garners Ferry Road"
-                ],
-                "city": "Columbia",
-                "state": "South Carolina",
-                "postalCode": "29209-1445",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O685fe42d-fc55-43db-9f82-d66c673ec539"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/685fe42d-fc55-43db-9f82-d66c673ec539/"
       }
     },
     {
@@ -23259,35 +22998,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "KmHuSfpK2MXZbZ39Qy2JLIVVSEo-tvRd",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "OKmHuSfpK2MXZbZ39Qy2JLIVVSEo-tvRd",
-            "name": "Apex Partners, LLC",
-            "address": [
-              {
-                "line": [
-                  "30701 Lorain Road"
-                ],
-                "city": "North Olmsted",
-                "state": "Ohio",
-                "postalCode": "44070-6325",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#OKmHuSfpK2MXZbZ39Qy2JLIVVSEo-tvRd"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/KmHuSfpK2MXZbZ39Qy2JLIVVSEo-tvRd/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "LE53-9reSSl1ATIUbSTE0HLYhIbs7hug",
         "contained": [
           {
@@ -24008,35 +23718,6 @@
           "id": "#OPYvsXOYiL9Kg269uLlyr8nOudyrp1k0M"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/PYvsXOYiL9Kg269uLlyr8nOudyrp1k0M/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "PaGO9hNZ6QOevGkHyfhxLfTV37qhMwrk",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "OPaGO9hNZ6QOevGkHyfhxLfTV37qhMwrk",
-            "name": "Healthe Kids Institute",
-            "address": [
-              {
-                "line": [
-                  "2800 Rockcreek Parkway"
-                ],
-                "city": "North Kansas City",
-                "state": "Missouri",
-                "postalCode": "64117",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#OPaGO9hNZ6QOevGkHyfhxLfTV37qhMwrk"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/PaGO9hNZ6QOevGkHyfhxLfTV37qhMwrk/"
       }
     },
     {
@@ -25466,7 +25147,7 @@
           {
             "resourceType": "Organization",
             "id": "OZDeZ2YCfDO83BznnU2d6jrTVmnIa197z",
-            "name": "Louisville Patient Centered Medical Home, P.S.C.",
+            "name": "U of L Physicians",
             "address": [
               {
                 "line": [
@@ -28477,35 +28158,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "b96a5c1a-687c-49d5-8230-460b3c4e0f5d",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Ob96a5c1a-687c-49d5-8230-460b3c4e0f5d",
-            "name": "Country Doctors Family Medicine Professional Corporation",
-            "address": [
-              {
-                "line": [
-                  "658 Burke Road"
-                ],
-                "city": "Masontown",
-                "state": "West Virginia",
-                "postalCode": "26542-9170",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Ob96a5c1a-687c-49d5-8230-460b3c4e0f5d"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/b96a5c1a-687c-49d5-8230-460b3c4e0f5d/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "bD8d2rdM3VWeD-nFwMaW_TsnLt1Z2FrA",
         "contained": [
           {
@@ -28733,35 +28385,6 @@
           "id": "#Obb0f3815-61cd-44f3-85f8-eeb2e99ef22a"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/bb0f3815-61cd-44f3-85f8-eeb2e99ef22a/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "bb6b85fa-76ff-4b2a-a81a-6fd1f9d9baea",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Obb6b85fa-76ff-4b2a-a81a-6fd1f9d9baea",
-            "name": "Pulmonary Physicians of Oklahoma City, PLLC.",
-            "address": [
-              {
-                "line": [
-                  "3366 Northwest Expressway"
-                ],
-                "city": "Oklahoma City",
-                "state": "Oklahoma",
-                "postalCode": "73112-4444",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Obb6b85fa-76ff-4b2a-a81a-6fd1f9d9baea"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/bb6b85fa-76ff-4b2a-a81a-6fd1f9d9baea/"
       }
     },
     {
@@ -32305,35 +31928,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "d7365098-6d60-4ec8-86ad-b746a939e4ed",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Od7365098-6d60-4ec8-86ad-b746a939e4ed",
-            "name": "Apex Partners, LLC",
-            "address": [
-              {
-                "line": [
-                  "30701 Lorain Road"
-                ],
-                "city": "North Olmsted",
-                "state": "Ohio",
-                "postalCode": "44070-6325",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Od7365098-6d60-4ec8-86ad-b746a939e4ed"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/d7365098-6d60-4ec8-86ad-b746a939e4ed/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "d792478d-c7a5-4028-84d0-ae569d6b0c53",
         "contained": [
           {
@@ -34431,7 +34025,7 @@
             "address": [
               {
                 "line": [
-                  "911 St John St"
+                  "1300 Oak Street"
                 ],
                 "city": "Faulkton",
                 "state": "South Dakota",
@@ -37089,35 +36683,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "fc560d6f-3a3b-46f9-a29b-c2da7f788404",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Ofc560d6f-3a3b-46f9-a29b-c2da7f788404",
-            "name": "S. Rick Miller, DPM",
-            "address": [
-              {
-                "line": [
-                  "2150 N Josey Ln"
-                ],
-                "city": "Carrollton",
-                "state": "Texas",
-                "postalCode": "75006-2994",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Ofc560d6f-3a3b-46f9-a29b-c2da7f788404"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/fc560d6f-3a3b-46f9-a29b-c2da7f788404/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "fc6e71f0-1feb-4aa5-8d40-7fb856d0d2f6",
         "contained": [
           {
@@ -38423,35 +37988,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "kSXemErRvVyqIjf2wZH07mtdbVGl4Gvb",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "OkSXemErRvVyqIjf2wZH07mtdbVGl4Gvb",
-            "name": "Rockville Town Square Clinic",
-            "address": [
-              {
-                "line": [
-                  "111 West High Street"
-                ],
-                "city": "Rockville",
-                "state": "Indiana",
-                "postalCode": "47872-1735",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#OkSXemErRvVyqIjf2wZH07mtdbVGl4Gvb"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/kSXemErRvVyqIjf2wZH07mtdbVGl4Gvb/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "kSfiRTuNDYx_39U4kLLwpT-2wyiW22lf",
         "contained": [
           {
@@ -39259,35 +38795,6 @@
           "id": "#Oq-3vUFaQmB_tKrR0ZIC4Z4u1bJnjsSJr"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/q-3vUFaQmB_tKrR0ZIC4Z4u1bJnjsSJr/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "q3J1m5qc22mRRs5Ad6fw1pFcqnkVdus_",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oq3J1m5qc22mRRs5Ad6fw1pFcqnkVdus_",
-            "name": "Apex Partners, LLC",
-            "address": [
-              {
-                "line": [
-                  "30701 Lorain Road"
-                ],
-                "city": "North Olmsted",
-                "state": "Ohio",
-                "postalCode": "44070-6325",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oq3J1m5qc22mRRs5Ad6fw1pFcqnkVdus_"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/q3J1m5qc22mRRs5Ad6fw1pFcqnkVdus_/"
       }
     },
     {
@@ -42425,35 +41932,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "c557312c-b1a3-42e2-9e10-62782af2baed",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oc557312c-b1a3-42e2-9e10-62782af2baed",
-            "name": "The MetroHealth System",
-            "address": [
-              {
-                "line": [
-                  "2500 Metrohealth Dr"
-                ],
-                "city": "Cleveland",
-                "state": "Ohio",
-                "postalCode": "44109-1900",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oc557312c-b1a3-42e2-9e10-62782af2baed"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/c557312c-b1a3-42e2-9e10-62782af2baed/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "987954ae-9180-4ce0-afd9-4dd65628349b",
         "contained": [
           {
@@ -42976,35 +42454,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "236ecbfc-a063-4890-b332-591e7cbb70dd",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O236ecbfc-a063-4890-b332-591e7cbb70dd",
-            "name": "The MetroHealth System",
-            "address": [
-              {
-                "line": [
-                  "2500 Metrohealth Dr"
-                ],
-                "city": "Cleveland",
-                "state": "Ohio",
-                "postalCode": "44109-1900",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O236ecbfc-a063-4890-b332-591e7cbb70dd"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/236ecbfc-a063-4890-b332-591e7cbb70dd/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "29bd7f74-505f-4da0-ab1b-2b3301332cd9",
         "contained": [
           {
@@ -43464,35 +42913,6 @@
           "id": "#Oac2ef729-5b74-4f97-be5e-101a996a9360"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/ac2ef729-5b74-4f97-be5e-101a996a9360/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "09e47046-2305-4fe2-893b-d04221d2bf28",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O09e47046-2305-4fe2-893b-d04221d2bf28",
-            "name": "The MetroHealth System",
-            "address": [
-              {
-                "line": [
-                  "2500 Metrohealth Dr"
-                ],
-                "city": "Cleveland",
-                "state": "Ohio",
-                "postalCode": "44109-1900",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O09e47046-2305-4fe2-893b-d04221d2bf28"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/09e47046-2305-4fe2-893b-d04221d2bf28/"
       }
     },
     {
@@ -44049,35 +43469,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "9b7869b2-4868-481a-8198-09e668f6ebdd",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O9b7869b2-4868-481a-8198-09e668f6ebdd",
-            "name": "The MetroHealth System",
-            "address": [
-              {
-                "line": [
-                  "2500 Metrohealth Dr"
-                ],
-                "city": "Cleveland",
-                "state": "Ohio",
-                "postalCode": "44109-1900",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O9b7869b2-4868-481a-8198-09e668f6ebdd"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/9b7869b2-4868-481a-8198-09e668f6ebdd/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "6afc702d-7c56-467a-aedf-49ea8677d023",
         "contained": [
           {
@@ -44136,35 +43527,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "39290951-f819-45ed-b01e-82d8a221d310",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O39290951-f819-45ed-b01e-82d8a221d310",
-            "name": "The MetroHealth System",
-            "address": [
-              {
-                "line": [
-                  "2500 Metrohealth Dr"
-                ],
-                "city": "Cleveland",
-                "state": "Ohio",
-                "postalCode": "44109-1900",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O39290951-f819-45ed-b01e-82d8a221d310"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/39290951-f819-45ed-b01e-82d8a221d310/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "67993c22-74d3-4e9f-ae4b-852b5775b754",
         "contained": [
           {
@@ -44218,35 +43580,6 @@
           "id": "#O89aa3c8a-5af5-4166-add0-a8ea5eb1afec"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/89aa3c8a-5af5-4166-add0-a8ea5eb1afec/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "34da30d9-0819-4bf5-80c0-70607941ba69",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O34da30d9-0819-4bf5-80c0-70607941ba69",
-            "name": "The MetroHealth System",
-            "address": [
-              {
-                "line": [
-                  "2500 Metrohealth Dr"
-                ],
-                "city": "Cleveland",
-                "state": "Ohio",
-                "postalCode": "44109-1900",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O34da30d9-0819-4bf5-80c0-70607941ba69"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/34da30d9-0819-4bf5-80c0-70607941ba69/"
       }
     },
     {
@@ -44624,35 +43957,6 @@
           "id": "#Oc6612efa-63ce-4f4e-a3d7-9d31c013cadb"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/c6612efa-63ce-4f4e-a3d7-9d31c013cadb/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "8c252e10-ded1-4aa0-a65e-c10689ae0d89",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O8c252e10-ded1-4aa0-a65e-c10689ae0d89",
-            "name": "The MetroHealth System",
-            "address": [
-              {
-                "line": [
-                  "2500 Metrohealth Dr"
-                ],
-                "city": "Cleveland",
-                "state": "Ohio",
-                "postalCode": "44109-1900",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O8c252e10-ded1-4aa0-a65e-c10689ae0d89"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/8c252e10-ded1-4aa0-a65e-c10689ae0d89/"
       }
     },
     {
