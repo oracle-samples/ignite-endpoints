@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-patient-dstu2",
   "type": "collection",
-  "total": 1642,
+  "total": 1643,
   "entry": [
     {
       "resource": {
@@ -969,7 +969,7 @@
           {
             "resourceType": "Organization",
             "id": "O065b8b09-4f7d-467b-8952-a1ff3f821682",
-            "name": "Montgomery County Asthma/Lung Center",
+            "name": "Montgomery County Pulmonary & Sleep Consultants, PC",
             "address": [
               {
                 "line": [
@@ -13889,6 +13889,35 @@
           "id": "#O69b75c71-33e2-412f-b04e-24db77afc876"
         },
         "address": "https://fhir-myrecord.cerner.com/dstu2/69b75c71-33e2-412f-b04e-24db77afc876/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "69da70dc-14a1-4b28-99e5-107b69008127",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O69da70dc-14a1-4b28-99e5-107b69008127",
+            "name": "John Knox Village of Central Florida, Inc.",
+            "address": [
+              {
+                "line": [
+                  "101 Northlake Drive"
+                ],
+                "city": "Orange City",
+                "state": "Florida",
+                "postalCode": "32763-6220",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O69da70dc-14a1-4b28-99e5-107b69008127"
+        },
+        "address": "https://fhir-myrecord.cerner.com/dstu2/69da70dc-14a1-4b28-99e5-107b69008127/"
       }
     },
     {
@@ -37036,7 +37065,7 @@
           {
             "resourceType": "Organization",
             "id": "Offda347f-dd5c-4ddb-8491-9dc707da579f",
-            "name": "SMECO",
+            "name": "Southern Maryland Electric Coop, Inc.",
             "address": [
               {
                 "line": [
