@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-patient-r4",
   "type": "collection",
-  "total": 1643,
+  "total": 1645,
   "entry": [
     {
       "resource": {
@@ -47638,6 +47638,64 @@
           "id": "#O58cb9d91-2948-4de3-bf50-27f99b3c33d9"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/58cb9d91-2948-4de3-bf50-27f99b3c33d9/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "612049ca-ad54-424a-803a-7ad03f0a9824",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O612049ca-ad54-424a-803a-7ad03f0a9824",
+            "name": "Lincoln Community Hospital and Nursing Home",
+            "address": [
+              {
+                "line": [
+                  "111 6th St"
+                ],
+                "city": "Hugo",
+                "state": "Colorado",
+                "postalCode": "80821",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O612049ca-ad54-424a-803a-7ad03f0a9824"
+        },
+        "address": "https://fhir-myrecord.cerner.com/r4/612049ca-ad54-424a-803a-7ad03f0a9824/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "e2ca5a14-2e79-4b49-ba4a-3cc6ac280cc6",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oe2ca5a14-2e79-4b49-ba4a-3cc6ac280cc6",
+            "name": "Wishek Community Hospital",
+            "address": [
+              {
+                "line": [
+                  "1007 Fourth  Avenue S"
+                ],
+                "city": "Wishek",
+                "state": "North Dakota",
+                "postalCode": "58495",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oe2ca5a14-2e79-4b49-ba4a-3cc6ac280cc6"
+        },
+        "address": "https://fhir-myrecord.cerner.com/r4/e2ca5a14-2e79-4b49-ba4a-3cc6ac280cc6/"
       }
     }
   ]
