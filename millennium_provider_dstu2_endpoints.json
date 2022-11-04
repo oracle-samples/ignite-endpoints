@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-dstu2",
   "type": "collection",
-  "total": 1645,
+  "total": 1643,
   "entry": [
     {
       "resource": {
@@ -19605,35 +19605,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "94733945-6278-428a-8e0d-7e4b0bbebbdc",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O94733945-6278-428a-8e0d-7e4b0bbebbdc",
-            "name": "Thomas M. Flake Jr., MD.",
-            "address": [
-              {
-                "line": [
-                  "23077 Greenfield Rd Ste 445"
-                ],
-                "city": "Southfield",
-                "state": "Michigan",
-                "postalCode": "48075-3706",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O94733945-6278-428a-8e0d-7e4b0bbebbdc"
-        },
-        "address": "https://fhir-ehr.cerner.com/dstu2/94733945-6278-428a-8e0d-7e4b0bbebbdc/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "948ddc3f-5cc9-41d2-8d7f-5b15b32755b8",
         "contained": [
           {
@@ -29400,35 +29371,6 @@
           "id": "#Oc1a92d40-9e4c-42a9-a69d-27d782800e16"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/c1a92d40-9e4c-42a9-a69d-27d782800e16/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "c1c7a35b-114f-408e-b606-42a9d0a305a4",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oc1c7a35b-114f-408e-b606-42a9d0a305a4",
-            "name": "Dr. Kain Kumar",
-            "address": [
-              {
-                "line": [
-                  "540 W Palmdale Blvd"
-                ],
-                "city": "Palmdale",
-                "state": "California",
-                "postalCode": "93551-4232",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oc1c7a35b-114f-408e-b606-42a9d0a305a4"
-        },
-        "address": "https://fhir-ehr.cerner.com/dstu2/c1c7a35b-114f-408e-b606-42a9d0a305a4/"
       }
     },
     {
