@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-r4",
   "type": "collection",
-  "total": 1643,
+  "total": 1644,
   "entry": [
     {
       "resource": {
@@ -39704,7 +39704,7 @@
           {
             "resourceType": "Organization",
             "id": "OvvWOESzbUe72lEl5ItnHhnlfe3uimw2P",
-            "name": "Alexius Bishop, MD",
+            "name": "Alexius M. Bishop, M.D., P.S.C.",
             "address": [
               {
                 "line": [
@@ -47638,6 +47638,35 @@
           "id": "#Oe2ca5a14-2e79-4b49-ba4a-3cc6ac280cc6"
         },
         "address": "https://fhir-ehr.cerner.com/r4/e2ca5a14-2e79-4b49-ba4a-3cc6ac280cc6/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "f2aa0e6f-59f8-4af5-916b-5f2f9445c1cb",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Of2aa0e6f-59f8-4af5-916b-5f2f9445c1cb",
+            "name": "Madelia Community Hospital and Clinic (D/B/A Madelia Health)",
+            "address": [
+              {
+                "line": [
+                  "121 Drew Ave SE"
+                ],
+                "city": "Madelia",
+                "state": "Minnesota",
+                "postalCode": "56062-1841",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Of2aa0e6f-59f8-4af5-916b-5f2f9445c1cb"
+        },
+        "address": "https://fhir-ehr.cerner.com/r4/f2aa0e6f-59f8-4af5-916b-5f2f9445c1cb/"
       }
     }
   ]
