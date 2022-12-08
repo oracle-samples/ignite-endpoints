@@ -1,4 +1,4 @@
-{
+{ 
   "resourceType": "Bundle",
   "id": "soarian-patient-r4",
   "type": "collection",
@@ -89,35 +89,6 @@
           "id": "#O5cec35cb-ca56-453f-a1d3-fc5e20bab214"
         },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/5cec35cb-ca56-453f-a1d3-fc5e20bab214/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "710eea77-1a9e-42cf-bdab-ee56306083f4",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O710eea77-1a9e-42cf-bdab-ee56306083f4",
-            "name": "Bay Area Hospital",
-            "address": [
-              {
-                "line": [
-                  "1775 Thompson Rd"
-                ],
-                "city": "Coos Bay",
-                "state": "OR",
-                "postalCode": "97420-2125",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O710eea77-1a9e-42cf-bdab-ee56306083f4"
-        },
-        "address": "https://fhir-myrecord-sc.cerner.com/r4/710eea77-1a9e-42cf-bdab-ee56306083f4/"
       }
     },
     {
