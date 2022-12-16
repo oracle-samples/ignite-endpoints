@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-patient-r4",
   "type": "collection",
-  "total": 1647,
+  "total": 1648,
   "entry": [
     {
       "resource": {
@@ -872,35 +872,6 @@
           "id": "#O04b7d73f-0769-4509-8cd9-c3061dc75979"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/04b7d73f-0769-4509-8cd9-c3061dc75979/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "04ef40f1-a235-4643-beed-2150fa89cc96",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O04ef40f1-a235-4643-beed-2150fa89cc96",
-            "name": "Weld County, Colorado",
-            "address": [
-              {
-                "line": [
-                  "1150 \"O\" Street"
-                ],
-                "city": "Greeley",
-                "state": "Colorado",
-                "postalCode": "80631",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O04ef40f1-a235-4643-beed-2150fa89cc96"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/04ef40f1-a235-4643-beed-2150fa89cc96/"
       }
     },
     {
@@ -7222,6 +7193,35 @@
           "id": "#O31c1d82c-d665-40a0-b8bd-9d7f82d8d52b"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/31c1d82c-d665-40a0-b8bd-9d7f82d8d52b/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "31d30d44-6840-4141-93e1-b13c2f0041c7",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O31d30d44-6840-4141-93e1-b13c2f0041c7",
+            "name": "Dover Cardiology Center",
+            "address": [
+              {
+                "line": [
+                  "413 Lakehurst Rd"
+                ],
+                "city": "Toms River",
+                "state": "New Jersey",
+                "postalCode": "08755-7378",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O31d30d44-6840-4141-93e1-b13c2f0041c7"
+        },
+        "address": "https://fhir-myrecord.cerner.com/r4/31d30d44-6840-4141-93e1-b13c2f0041c7/"
       }
     },
     {
@@ -32691,7 +32691,7 @@
             "address": [
               {
                 "line": [
-                  "1333 3rd Ave S Ste 402"
+                  "1333 3rd Ave S Ste 304"
                 ],
                 "city": "Naples",
                 "state": "Florida",
@@ -47754,6 +47754,35 @@
           "id": "#O47504f24-8f33-46ef-bd43-36455bc94e0b"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/47504f24-8f33-46ef-bd43-36455bc94e0b/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "c57b8fef-3c95-4d31-a1ba-989525848740",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oc57b8fef-3c95-4d31-a1ba-989525848740",
+            "name": "Wayne General Hospital",
+            "address": [
+              {
+                "line": [
+                  "950 Matthew Dr"
+                ],
+                "city": "Waynesboro",
+                "state": "Mississippi",
+                "postalCode": "39367-2567",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oc57b8fef-3c95-4d31-a1ba-989525848740"
+        },
+        "address": "https://fhir-myrecord.cerner.com/r4/c57b8fef-3c95-4d31-a1ba-989525848740/"
       }
     }
   ]
