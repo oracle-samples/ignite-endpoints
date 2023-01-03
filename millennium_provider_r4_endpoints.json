@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-r4",
   "type": "collection",
-  "total": 1648,
+  "total": 1646,
   "entry": [
     {
       "resource": {
@@ -13928,7 +13928,7 @@
           {
             "resourceType": "Organization",
             "id": "O6a316867-5684-4988-b95c-94ce28d46d1f",
-            "name": "Paul S. DeMarco, DPM, LLC",
+            "name": "IFAS Management, LLC",
             "address": [
               {
                 "line": [
@@ -15221,35 +15221,6 @@
           "id": "#O7327d6db-1ee3-44fd-8eae-02972f435e62"
         },
         "address": "https://fhir-ehr.cerner.com/r4/7327d6db-1ee3-44fd-8eae-02972f435e62/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "73913c65-6ffa-4558-9bd4-9feeebb396eb",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O73913c65-6ffa-4558-9bd4-9feeebb396eb",
-            "name": "Adult Medicine Specialists",
-            "address": [
-              {
-                "line": [
-                  "690 Guzzi Ln"
-                ],
-                "city": "Sonora",
-                "state": "California",
-                "postalCode": "95370-5289",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O73913c65-6ffa-4558-9bd4-9feeebb396eb"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/73913c65-6ffa-4558-9bd4-9feeebb396eb/"
       }
     },
     {
@@ -25519,35 +25490,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "a124d63f-4821-4c46-aa22-72b63de7afb9",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oa124d63f-4821-4c46-aa22-72b63de7afb9",
-            "name": "Adult Medical Associates",
-            "address": [
-              {
-                "line": [
-                  "15929 S. Bell Road"
-                ],
-                "city": "Homer Glen",
-                "state": "Illinois",
-                "postalCode": "60491-6707",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oa124d63f-4821-4c46-aa22-72b63de7afb9"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/a124d63f-4821-4c46-aa22-72b63de7afb9/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "a1a7e971-49fe-4ce0-8575-d8dc8b864c18",
         "contained": [
           {
@@ -26239,35 +26181,6 @@
           "id": "#Oa64ec38c-9b6d-4023-b227-2bdfa42b34c2"
         },
         "address": "https://fhir-ehr.cerner.com/r4/a64ec38c-9b6d-4023-b227-2bdfa42b34c2/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "a7432ec6-a5a3-4b86-bd77-3f7b3b7d6177",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oa7432ec6-a5a3-4b86-bd77-3f7b3b7d6177",
-            "name": "Green Hills Medical Clinic",
-            "address": [
-              {
-                "line": [
-                  "3300 East 10th Street"
-                ],
-                "city": "Trenton",
-                "state": "Missouri",
-                "postalCode": "64683-9579",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oa7432ec6-a5a3-4b86-bd77-3f7b3b7d6177"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/a7432ec6-a5a3-4b86-bd77-3f7b3b7d6177/"
       }
     },
     {
@@ -45726,6 +45639,35 @@
           "id": "#Ob74030e2-5e2c-4fcc-af5e-0e1218937dd3"
         },
         "address": "https://fhir-ehr.cerner.com/r4/b74030e2-5e2c-4fcc-af5e-0e1218937dd3/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "e8e8bad8-b3b5-4f34-b7c8-aa8579a771d2",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oe8e8bad8-b3b5-4f34-b7c8-aa8579a771d2",
+            "name": "Wombkeepers AZ Obstetrics and Gynecology, PC",
+            "address": [
+              {
+                "line": [
+                  "16700 North Thompson Peak Parkway"
+                ],
+                "city": "Scottsdale",
+                "state": "Arizona",
+                "postalCode": "85260",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oe8e8bad8-b3b5-4f34-b7c8-aa8579a771d2"
+        },
+        "address": "https://fhir-ehr.cerner.com/r4/e8e8bad8-b3b5-4f34-b7c8-aa8579a771d2/"
       }
     },
     {
