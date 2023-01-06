@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-patient-r4",
   "type": "collection",
-  "total": 1646,
+  "total": 1642,
   "entry": [
     {
       "resource": {
@@ -524,35 +524,6 @@
           "id": "#O022992dd-25dd-480b-9df5-6959b1bac6bc"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/022992dd-25dd-480b-9df5-6959b1bac6bc/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "025a0f3c-14a7-44fd-90f4-ebf1f0e1cd9e",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O025a0f3c-14a7-44fd-90f4-ebf1f0e1cd9e",
-            "name": "Center of Women's Health of Lansdale",
-            "address": [
-              {
-                "line": [
-                  "1000 Walnut Street Suite 122"
-                ],
-                "city": "Lansdale",
-                "state": "Pennsylvania",
-                "postalCode": "19446-1140",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O025a0f3c-14a7-44fd-90f4-ebf1f0e1cd9e"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/025a0f3c-14a7-44fd-90f4-ebf1f0e1cd9e/"
       }
     },
     {
@@ -7887,35 +7858,6 @@
           "id": "#O36adad9c-8758-4091-9c08-d4e8de999cfb"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/36adad9c-8758-4091-9c08-d4e8de999cfb/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "36d990dd-0e06-4a85-bc0f-4a8859d77748",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O36d990dd-0e06-4a85-bc0f-4a8859d77748",
-            "name": "Cardio MD",
-            "address": [
-              {
-                "line": [
-                  "1200 US Hwy 22 East, Suite 17"
-                ],
-                "city": "Bridgewater",
-                "state": "New Jersey",
-                "postalCode": "08807-2943",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O36d990dd-0e06-4a85-bc0f-4a8859d77748"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/36d990dd-0e06-4a85-bc0f-4a8859d77748/"
       }
     },
     {
@@ -20591,35 +20533,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "9a87838e-fc69-4f8f-bd0b-43be75f51b11",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O9a87838e-fc69-4f8f-bd0b-43be75f51b11",
-            "name": "Mississippi Arthritis Clinic PLLC",
-            "address": [
-              {
-                "line": [
-                  "971 LAKELAND DR STE 1157"
-                ],
-                "city": "Jackson",
-                "state": "Mississippi",
-                "postalCode": "39216-4609",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O9a87838e-fc69-4f8f-bd0b-43be75f51b11"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/9a87838e-fc69-4f8f-bd0b-43be75f51b11/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "9abe5281-fb44-4a76-833b-172cdda3a495",
         "contained": [
           {
@@ -28066,35 +27979,6 @@
           "id": "#Ob96617cd-e9a9-4deb-8d02-58e8c5cb1ed6"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/b96617cd-e9a9-4deb-8d02-58e8c5cb1ed6/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "bD8d2rdM3VWeD-nFwMaW_TsnLt1Z2FrA",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "ObD8d2rdM3VWeD-nFwMaW_TsnLt1Z2FrA",
-            "name": "Alpha Health Associates",
-            "address": [
-              {
-                "line": [
-                  "449 Mount Pleasant Avenue"
-                ],
-                "city": "West Orange",
-                "state": "New Jersey",
-                "postalCode": "07052",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#ObD8d2rdM3VWeD-nFwMaW_TsnLt1Z2FrA"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/bD8d2rdM3VWeD-nFwMaW_TsnLt1Z2FrA/"
       }
     },
     {
@@ -39960,35 +39844,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "xvB_pjWTDfl6S59Udb9jtSZV4jNKjh7E",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "OxvB_pjWTDfl6S59Udb9jtSZV4jNKjh7E",
-            "name": "Armando Osio MD",
-            "address": [
-              {
-                "line": [
-                  "1301 E Fern Ave"
-                ],
-                "city": "McAllen",
-                "state": "Texas",
-                "postalCode": "78501",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#OxvB_pjWTDfl6S59Udb9jtSZV4jNKjh7E"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/xvB_pjWTDfl6S59Udb9jtSZV4jNKjh7E/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "yM1TVbA1pYVBqAL5r6hrPXGVr5nFBJbP",
         "contained": [
           {
@@ -47725,6 +47580,35 @@
           "id": "#Oc57b8fef-3c95-4d31-a1ba-989525848740"
         },
         "address": "https://fhir-myrecord.cerner.com/r4/c57b8fef-3c95-4d31-a1ba-989525848740/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "ba83b482-215a-4958-9629-47fddfaae0e6",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oba83b482-215a-4958-9629-47fddfaae0e6",
+            "name": "Rehabilitation Hospital of the Pacific",
+            "address": [
+              {
+                "line": [
+                  "226 N Kuakini St"
+                ],
+                "city": "Honolulu",
+                "state": "Hawaii",
+                "postalCode": "96817-2488",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oba83b482-215a-4958-9629-47fddfaae0e6"
+        },
+        "address": "https://fhir-myrecord.cerner.com/r4/ba83b482-215a-4958-9629-47fddfaae0e6/"
       }
     }
   ]
