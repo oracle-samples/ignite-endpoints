@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-dstu2",
   "type": "collection",
-  "total": 1642,
+  "total": 1644,
   "entry": [
     {
       "resource": {
@@ -47609,6 +47609,64 @@
           "id": "#Oba83b482-215a-4958-9629-47fddfaae0e6"
         },
         "address": "https://fhir-ehr.cerner.com/dstu2/ba83b482-215a-4958-9629-47fddfaae0e6/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "eef7bdb7-cd7b-4ec1-b846-cf9ec1db80c8",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oeef7bdb7-cd7b-4ec1-b846-cf9ec1db80c8",
+            "name": "Changing Tides Family Services",
+            "address": [
+              {
+                "line": [
+                  "2259 Myrtle Ave"
+                ],
+                "city": "Eureka",
+                "state": "California",
+                "postalCode": "95501-3325",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oeef7bdb7-cd7b-4ec1-b846-cf9ec1db80c8"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/eef7bdb7-cd7b-4ec1-b846-cf9ec1db80c8/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "507190e3-553c-45ab-80f1-7f5686edd221",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O507190e3-553c-45ab-80f1-7f5686edd221",
+            "name": "Mosaic Mental Health",
+            "address": [
+              {
+                "line": [
+                  "5676 Riverdale Avenue"
+                ],
+                "city": "Bronx",
+                "state": "New York",
+                "postalCode": "10471-2191",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O507190e3-553c-45ab-80f1-7f5686edd221"
+        },
+        "address": "https://fhir-ehr.cerner.com/dstu2/507190e3-553c-45ab-80f1-7f5686edd221/"
       }
     }
   ]
