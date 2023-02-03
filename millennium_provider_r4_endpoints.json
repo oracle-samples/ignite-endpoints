@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "millennium-provider-r4",
   "type": "collection",
-  "total": 1651,
+  "total": 1647,
   "entry": [
     {
       "resource": {
@@ -1538,35 +1538,6 @@
           "id": "#O0abea9c0-1e9f-4430-ab68-c2420de4e9fb"
         },
         "address": "https://fhir-ehr.cerner.com/r4/0abea9c0-1e9f-4430-ab68-c2420de4e9fb/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "0afb6793-ac40-40a5-8123-d13a308d2792",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O0afb6793-ac40-40a5-8123-d13a308d2792",
-            "name": "Consultants In Infectious Disease",
-            "address": [
-              {
-                "line": [
-                  "5670 54th Ave. N. Ste A-1"
-                ],
-                "city": "Kenneth City",
-                "state": "Florida",
-                "postalCode": "33709-2067",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O0afb6793-ac40-40a5-8123-d13a308d2792"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/0afb6793-ac40-40a5-8123-d13a308d2792/"
       }
     },
     {
@@ -10613,35 +10584,6 @@
           "id": "#O4dcb773c-b035-4184-96ff-d8e4a6592906"
         },
         "address": "https://fhir-ehr.cerner.com/r4/4dcb773c-b035-4184-96ff-d8e4a6592906/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "4dda80a5-f33b-4429-ba97-844b531d51a5",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O4dda80a5-f33b-4429-ba97-844b531d51a5",
-            "name": "Norton Children's Medical Associates Middletown",
-            "address": [
-              {
-                "line": [
-                  "13328 Shelbyville Road"
-                ],
-                "city": "Louisville",
-                "state": "Kentucky",
-                "postalCode": "40223-3936",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O4dda80a5-f33b-4429-ba97-844b531d51a5"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/4dda80a5-f33b-4429-ba97-844b531d51a5/"
       }
     },
     {
@@ -20359,35 +20301,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "9B09w4aj0b7v-DaYld-ij1wHL-aXuSpT",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O9B09w4aj0b7v-DaYld-ij1wHL-aXuSpT",
-            "name": "Timothy Cook - Convenient Med Care Center",
-            "address": [
-              {
-                "line": [
-                  "25 N Main St"
-                ],
-                "city": "Rutland",
-                "state": "Vermont",
-                "postalCode": "05701",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O9B09w4aj0b7v-DaYld-ij1wHL-aXuSpT"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/9B09w4aj0b7v-DaYld-ij1wHL-aXuSpT/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "9NRYwNOTpYhpe-Vh6-aSWRYPlx02SAgP",
         "contained": [
           {
@@ -27143,35 +27056,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "akXjjWGxUrRAGrtTo1EakM-WJa1twLjW",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "OakXjjWGxUrRAGrtTo1EakM-WJa1twLjW",
-            "name": "Ronald Teed, MD",
-            "address": [
-              {
-                "line": [
-                  "425 SE Baseline"
-                ],
-                "city": "Hillsboro",
-                "state": "Oregon",
-                "postalCode": "97123-4103",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#OakXjjWGxUrRAGrtTo1EakM-WJa1twLjW"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/akXjjWGxUrRAGrtTo1EakM-WJa1twLjW/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "al8u-8waWgFhtnIdeZQvxo774HUwl0e7",
         "contained": [
           {
@@ -28327,35 +28211,6 @@
           "id": "#Obd05c5b1-188e-4fdd-808f-1d6e5be95377"
         },
         "address": "https://fhir-ehr.cerner.com/r4/bd05c5b1-188e-4fdd-808f-1d6e5be95377/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "bd679eca-e104-439f-8551-b38107963507",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Obd679eca-e104-439f-8551-b38107963507",
-            "name": "Dr. R Daniel Jacob",
-            "address": [
-              {
-                "line": [
-                  "4315 Houmas Blvd Ste 401"
-                ],
-                "city": "Metairie",
-                "state": "Louisiana",
-                "postalCode": "70006-3000",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Obd679eca-e104-439f-8551-b38107963507"
-        },
-        "address": "https://fhir-ehr.cerner.com/r4/bd679eca-e104-439f-8551-b38107963507/"
       }
     },
     {
@@ -35881,11 +35736,11 @@
             "address": [
               {
                 "line": [
-                  "2424 South 90th Street"
+                  "3033 West Layton Ave #101"
                 ],
-                "city": "West Allis",
+                "city": "Greenfield",
                 "state": "Wisconsin",
-                "postalCode": "53227-2455",
+                "postalCode": "53221",
                 "country": "United States of America"
               }
             ]
@@ -47870,6 +47725,35 @@
           "id": "#Of98028ac-bce8-4115-85e2-9556668ed9dd"
         },
         "address": "https://fhir-ehr.cerner.com/r4/f98028ac-bce8-4115-85e2-9556668ed9dd/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "71747401-1366-4bfa-a42b-aee2082f7da8",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O71747401-1366-4bfa-a42b-aee2082f7da8",
+            "name": "Noxubee Medical Complex",
+            "address": [
+              {
+                "line": [
+                  "78 Hospital Rd"
+                ],
+                "city": "Macon",
+                "state": "Mississippi",
+                "postalCode": "39341-2490",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O71747401-1366-4bfa-a42b-aee2082f7da8"
+        },
+        "address": "https://fhir-ehr.cerner.com/r4/71747401-1366-4bfa-a42b-aee2082f7da8/"
       }
     }
   ]
