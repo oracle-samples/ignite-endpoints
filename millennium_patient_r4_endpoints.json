@@ -1311,35 +1311,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "094be162-7d96-49dc-86a2-73b309e5fa47",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "O094be162-7d96-49dc-86a2-73b309e5fa47",
-            "name": "Ascension Health",
-            "address": [
-              {
-                "line": [
-                  "4600 Edmundson Rd"
-                ],
-                "city": "Saint Louis",
-                "state": "Missouri",
-                "postalCode": "63134-3806",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#O094be162-7d96-49dc-86a2-73b309e5fa47"
-        },
-        "address": "https://fhir-myrecord.cerner.com/r4/094be162-7d96-49dc-86a2-73b309e5fa47/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "09c6832d-8ba2-41f5-8eee-a1da45053f6c",
         "contained": [
           {
