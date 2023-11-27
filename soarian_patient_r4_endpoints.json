@@ -210,35 +210,6 @@
     {
       "resource": {
         "resourceType": "Endpoint",
-        "id": "b8387c42-2bb1-4fa9-94a8-9fe03ababf1c",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Ob8387c42-2bb1-4fa9-94a8-9fe03ababf1c",
-            "name": "Hawaii Health System Corp",
-            "address": [
-              {
-                "line": [
-                  "3675 Kilauea Ave"
-                ],
-                "city": "Honolulu",
-                "state": "HI",
-                "postalCode": "96816-2333",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Ob8387c42-2bb1-4fa9-94a8-9fe03ababf1c"
-        },
-        "address": "https://fhir-myrecord-sc.cerner.com/r4/b8387c42-2bb1-4fa9-94a8-9fe03ababf1c/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
         "id": "20eda2fa-ebed-437e-8b30-7ddd2a35effa",
         "contained": [
           {
@@ -292,35 +263,6 @@
           "id": "#O29d5e7f6-9579-4aa3-8893-01210e29a651"
         },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/29d5e7f6-9579-4aa3-8893-01210e29a651/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "c030faeb-65aa-4fe6-b969-2d16df0bbbf7",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oc030faeb-65aa-4fe6-b969-2d16df0bbbf7",
-            "name": "Lake Health",
-            "address": [
-              {
-                "line": [
-                  "7590 Auburn Rd"
-                ],
-                "city": "Painesville",
-                "state": "OH",
-                "postalCode": "44077-9176",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oc030faeb-65aa-4fe6-b969-2d16df0bbbf7"
-        },
-        "address": "https://fhir-myrecord-sc.cerner.com/r4/c030faeb-65aa-4fe6-b969-2d16df0bbbf7/"
       }
     },
     {
@@ -524,35 +466,6 @@
           "id": "#O8c4b7810-13a5-4a82-9e13-439865842bde"
         },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/8c4b7810-13a5-4a82-9e13-439865842bde/"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "e3780ef1-62a9-42cb-b6ff-304b3fcb2e6c",
-        "contained": [
-          {
-            "resourceType": "Organization",
-            "id": "Oe3780ef1-62a9-42cb-b6ff-304b3fcb2e6c",
-            "name": "Weirton Medical Center",
-            "address": [
-              {
-                "line": [
-                  "601 Colliers Way"
-                ],
-                "city": "Weirton",
-                "state": "WV",
-                "postalCode": "26062-5014",
-                "country": "United States of America"
-              }
-            ]
-          }
-        ],
-        "status": "active",
-        "managingOrganization": {
-          "id": "#Oe3780ef1-62a9-42cb-b6ff-304b3fcb2e6c"
-        },
-        "address": "https://fhir-myrecord-sc.cerner.com/r4/e3780ef1-62a9-42cb-b6ff-304b3fcb2e6c/"
       }
     }
   ]
