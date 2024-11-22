@@ -1,678 +1,558 @@
-{
+{ 
   "resourceType": "Bundle",
   "id": "soarian-patient-r4",
   "type": "collection",
+  "total": 34,
   "entry": [
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/5cec35cb-ca56-453f-a1d3-fc5e20bab214",
       "resource": {
         "resourceType": "Endpoint",
-        "id": "5cec35cb-ca56-453f-a1d3-fc5e20bab214",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "id": "725ea83c-53c1-458f-a3a4-190e038b73c9",
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "O725ea83c-53c1-458f-a3a4-190e038b73c9",
+            "name": "Albany Medical Center",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "43 New Scotland Ave"
+                ],
+                "city": "Albany",
+                "state": "NY",
+                "postalCode": "12208-3412",
+                "country": "United States of America"
               }
             ]
           }
         ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O725ea83c-53c1-458f-a3a4-190e038b73c9"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/725ea83c-53c1-458f-a3a4-190e038b73c9/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "a5f4ce6b-ab0a-413b-affc-47ff1650194e",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oa5f4ce6b-ab0a-413b-affc-47ff1650194e",
+            "name": "Archbold Medical Center",
+            "address": [
+              {
+                "line": [
+                  "915 Gordan Ave"
+                ],
+                "city": "Thomasville",
+                "state": "GA",
+                "postalCode": "31792",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oa5f4ce6b-ab0a-413b-affc-47ff1650194e"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/a5f4ce6b-ab0a-413b-affc-47ff1650194e/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "5cec35cb-ca56-453f-a1d3-fc5e20bab214",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O5cec35cb-ca56-453f-a1d3-fc5e20bab214",
+            "name": "Arkansas Heart Hospital",
+            "address": [
+              {
+                "line": [
+                  "1701 S Shackleford Rd"
+                ],
+                "city": "Little Rock",
+                "state": "AR",
+                "postalCode": "72211-4335",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O5cec35cb-ca56-453f-a1d3-fc5e20bab214"
+        },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/5cec35cb-ca56-453f-a1d3-fc5e20bab214/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/O5cec35cb-ca56-453f-a1d3-fc5e20bab214",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O5cec35cb-ca56-453f-a1d3-fc5e20bab214",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.40469"
-          }
-        ],
-        "name": "Arkansas Heart Hospital",
-        "address": [
-          {
-            "line": [
-              "1701 S Shackleford Road"
-            ],
-            "city": "Little Rock",
-            "state": "AR",
-            "postalCode": "72211-4335",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/5cec35cb-ca56-453f-a1d3-fc5e20bab214"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/e19f3f05-57a5-4b12-a164-8453dfcc6a5e",
       "resource": {
         "resourceType": "Endpoint",
         "id": "e19f3f05-57a5-4b12-a164-8453dfcc6a5e",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "Oe19f3f05-57a5-4b12-a164-8453dfcc6a5e",
+            "name": "Bethesda Health Baptist Health South Florida",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "2815 S Seacrest Blvd"
+                ],
+                "city": "Boynton Beach",
+                "state": "FL",
+                "postalCode": "33435-7934",
+                "country": "United States of America"
               }
             ]
           }
         ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oe19f3f05-57a5-4b12-a164-8453dfcc6a5e"
+        },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/e19f3f05-57a5-4b12-a164-8453dfcc6a5e/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/Oe19f3f05-57a5-4b12-a164-8453dfcc6a5e",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oe19f3f05-57a5-4b12-a164-8453dfcc6a5e",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.26923"
-          }
-        ],
-        "name": "Bethesda Health Baptist Health South Florida",
-        "address": [
-          {
-            "line": [
-              "2815 S Seacrest Blvd"
-            ],
-            "city": "Boynton Beach",
-            "state": "FL",
-            "postalCode": "33435-7934",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/e19f3f05-57a5-4b12-a164-8453dfcc6a5e"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1",
       "resource": {
         "resourceType": "Endpoint",
-        "id": "2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "id": "e71212a1-08a3-40bc-88aa-974471e03d3e",
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "Oe71212a1-08a3-40bc-88aa-974471e03d3e",
+            "name": "Cape Regional Medical Center",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "2 Stone Harbor Blvd"
+                ],
+                "city": "Cape May Court House",
+                "state": "NJ",
+                "postalCode": "08210-2138",
+                "country": "United States of America"
               }
             ]
           }
         ],
-        "address": "https://fhir-myrecord-sc.cerner.com/r4/2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/O2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.60455"
-          }
-        ],
-        "name": "R0SE - Soarian Clinicals Public Sandbox",
-        "address": [
-          {
-            "line": [
-              "2800 Rock Creek Pkwy"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64117-2521",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/be754400-3834-4653-96ed-453314fc77d8",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "be754400-3834-4653-96ed-453314fc77d8",
         "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
+        "managingOrganization": {
+          "id": "#Oe71212a1-08a3-40bc-88aa-974471e03d3e"
         },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-myrecord-sc.cerner.com/r4/be754400-3834-4653-96ed-453314fc77d8/"
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/e71212a1-08a3-40bc-88aa-974471e03d3e/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/Obe754400-3834-4653-96ed-453314fc77d8",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Obe754400-3834-4653-96ed-453314fc77d8",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.40271"
-          }
-        ],
-        "name": "Peconic Bay Medical Center",
-        "address": [
-          {
-            "line": [
-              "1300 Roanoke Ave"
-            ],
-            "city": "Riverhead",
-            "state": "NY",
-            "postalCode": "11901-2031",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/be754400-3834-4653-96ed-453314fc77d8"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9",
       "resource": {
         "resourceType": "Endpoint",
         "id": "3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "O3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9",
+            "name": "Crouse Hospital",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "736 Irving Ave"
+                ],
+                "city": "Syracuse",
+                "state": "NY",
+                "postalCode": "13210-1687",
+                "country": "United States of America"
               }
             ]
           }
         ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9"
+        },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/O3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.38581"
-          }
-        ],
-        "name": "Crouse Hospital",
-        "address": [
-          {
-            "line": [
-              "736 Irving Ave"
-            ],
-            "city": "Syracuse",
-            "state": "NY",
-            "postalCode": "13210-1687",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/3f25c0e5-282c-4d6e-ade5-aa2b86ec03e9"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/610e8cdb-2c3e-496a-b07b-c914f86e14f3",
       "resource": {
         "resourceType": "Endpoint",
         "id": "610e8cdb-2c3e-496a-b07b-c914f86e14f3",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "O610e8cdb-2c3e-496a-b07b-c914f86e14f3",
+            "name": "Greenwood Leflore Hospital",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "1401 River Rd"
+                ],
+                "city": "Greenwood",
+                "state": "MS",
+                "postalCode": "38930-4030",
+                "country": "United States of America"
               }
             ]
           }
         ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O610e8cdb-2c3e-496a-b07b-c914f86e14f3"
+        },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/610e8cdb-2c3e-496a-b07b-c914f86e14f3/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/O610e8cdb-2c3e-496a-b07b-c914f86e14f3",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O610e8cdb-2c3e-496a-b07b-c914f86e14f3",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.37998"
-          }
-        ],
-        "name": "Greenwood Leflore Hospital",
-        "address": [
-          {
-            "line": [
-              "1401 River Rd"
-            ],
-            "city": "Greenwood",
-            "state": "MS",
-            "postalCode": "38930-4030",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/610e8cdb-2c3e-496a-b07b-c914f86e14f3"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/29d5e7f6-9579-4aa3-8893-01210e29a651",
       "resource": {
         "resourceType": "Endpoint",
-        "id": "29d5e7f6-9579-4aa3-8893-01210e29a651",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "id": "b8387c42-2bb1-4fa9-94a8-9fe03ababf1c",
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "Ob8387c42-2bb1-4fa9-94a8-9fe03ababf1c",
+            "name": "Hawaii Health System Corp",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "3675 Kilauea Ave"
+                ],
+                "city": "Honolulu",
+                "state": "HI",
+                "postalCode": "96816-2333",
+                "country": "United States of America"
               }
             ]
           }
         ],
-        "address": "https://fhir-myrecord-sc.cerner.com/r4/29d5e7f6-9579-4aa3-8893-01210e29a651/"
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Ob8387c42-2bb1-4fa9-94a8-9fe03ababf1c"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/b8387c42-2bb1-4fa9-94a8-9fe03ababf1c/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/O29d5e7f6-9579-4aa3-8893-01210e29a651",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O29d5e7f6-9579-4aa3-8893-01210e29a651",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.42272"
-          }
-        ],
-        "name": "Howard University Hospital",
-        "address": [
-          {
-            "line": [
-              "2041 Georgia Ave"
-            ],
-            "city": "Washington",
-            "state": "DC",
-            "postalCode": "20060-0001",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/29d5e7f6-9579-4aa3-8893-01210e29a651"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/20eda2fa-ebed-437e-8b30-7ddd2a35effa",
       "resource": {
         "resourceType": "Endpoint",
         "id": "20eda2fa-ebed-437e-8b30-7ddd2a35effa",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "O20eda2fa-ebed-437e-8b30-7ddd2a35effa",
+            "name": "Holy Redeemer Hospital",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "667 Welsh Rd"
+                ],
+                "city": "Huntingdon Valley",
+                "state": "PA",
+                "postalCode": "19006-6309",
+                "country": "United States of America"
               }
             ]
           }
         ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O20eda2fa-ebed-437e-8b30-7ddd2a35effa"
+        },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/20eda2fa-ebed-437e-8b30-7ddd2a35effa/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/O20eda2fa-ebed-437e-8b30-7ddd2a35effa",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O20eda2fa-ebed-437e-8b30-7ddd2a35effa",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.38769"
-          }
-        ],
-        "name": "Holy Redeemer Hospital",
-        "address": [
-          {
-            "line": [
-              "667 Welsh Rd"
-            ],
-            "city": "Huntingdon Valley",
-            "state": "PA",
-            "postalCode": "19006-6309",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/20eda2fa-ebed-437e-8b30-7ddd2a35effa"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/118786cd-a5ec-4920-96f9-757c12e60137",
       "resource": {
         "resourceType": "Endpoint",
-        "id": "118786cd-a5ec-4920-96f9-757c12e60137",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "id": "29d5e7f6-9579-4aa3-8893-01210e29a651",
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "O29d5e7f6-9579-4aa3-8893-01210e29a651",
+            "name": "Howard University Hospital",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "2041 Georgia Ave"
+                ],
+                "city": "Washington",
+                "state": "DC",
+                "postalCode": "20060-0001",
+                "country": "United States of America"
               }
             ]
           }
         ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O29d5e7f6-9579-4aa3-8893-01210e29a651"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/29d5e7f6-9579-4aa3-8893-01210e29a651/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "c030faeb-65aa-4fe6-b969-2d16df0bbbf7",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Oc030faeb-65aa-4fe6-b969-2d16df0bbbf7",
+            "name": "Lake Health",
+            "address": [
+              {
+                "line": [
+                  "7590 Auburn Rd"
+                ],
+                "city": "Painesville",
+                "state": "OH",
+                "postalCode": "44077-9176",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oc030faeb-65aa-4fe6-b969-2d16df0bbbf7"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/c030faeb-65aa-4fe6-b969-2d16df0bbbf7/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "118786cd-a5ec-4920-96f9-757c12e60137",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O118786cd-a5ec-4920-96f9-757c12e60137",
+            "name": "Nacogdoches Memorial Hospital",
+            "address": [
+              {
+                "line": [
+                  "1204 N Mound St"
+                ],
+                "city": "Nacogdoches",
+                "state": "TX",
+                "postalCode": "75961-4027",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O118786cd-a5ec-4920-96f9-757c12e60137"
+        },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/118786cd-a5ec-4920-96f9-757c12e60137/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/O118786cd-a5ec-4920-96f9-757c12e60137",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O118786cd-a5ec-4920-96f9-757c12e60137",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.39524"
-          }
-        ],
-        "name": "Nacogdoches Memorial Hospital",
-        "address": [
-          {
-            "line": [
-              "1204 N Mound St"
-            ],
-            "city": "Nacogdoches",
-            "state": "TX",
-            "postalCode": "75961-4027",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/118786cd-a5ec-4920-96f9-757c12e60137"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/1c8544d5-3744-479c-ad10-a92153184d75",
       "resource": {
         "resourceType": "Endpoint",
-        "id": "1c8544d5-3744-479c-ad10-a92153184d75",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "id": "87b13152-c009-4570-8dd1-30220e3ffccb",
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "O87b13152-c009-4570-8dd1-30220e3ffccb",
+            "name": "New England Baptist Hospital",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "125 Parker Hill Ave"
+                ],
+                "city": "Roxbury Crossing",
+                "state": "MA",
+                "postalCode": "02120-2847",
+                "country": "United States of America"
               }
             ]
           }
         ],
-        "address": "https://fhir-myrecord-sc.cerner.com/r4/1c8544d5-3744-479c-ad10-a92153184d75/"
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O87b13152-c009-4570-8dd1-30220e3ffccb"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/87b13152-c009-4570-8dd1-30220e3ffccb/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/O1c8544d5-3744-479c-ad10-a92153184d75",
       "resource": {
-        "resourceType": "Organization",
-        "id": "O1c8544d5-3744-479c-ad10-a92153184d75",
-        "identifier": [
+        "resourceType": "Endpoint",
+        "id": "be754400-3834-4653-96ed-453314fc77d8",
+        "contained": [
           {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.41147"
+            "resourceType": "Organization",
+            "id": "Obe754400-3834-4653-96ed-453314fc77d8",
+            "name": "Peconic Bay Medical Center",
+            "address": [
+              {
+                "line": [
+                  "1300 Roanoke Ave"
+                ],
+                "city": "Riverhead",
+                "state": "NY",
+                "postalCode": "11901-2031",
+                "country": "United States of America"
+              }
+            ]
           }
         ],
-        "name": "Southampton Hospital",
-        "address": [
-          {
-            "line": [
-              "240 Meeting House Ln"
-            ],
-            "city": "Southampton",
-            "state": "NY",
-            "postalCode": "11968-5009",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/1c8544d5-3744-479c-ad10-a92153184d75"
-          }
-        ]
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Obe754400-3834-4653-96ed-453314fc77d8"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/be754400-3834-4653-96ed-453314fc77d8/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/d099f3aa-0761-4b26-afb2-b7a6d565f0ce",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1",
+            "name": "R0SE - Soarian Clinicals Public Sandbox",
+            "address": [
+              {
+                "line": [
+                  "2800 Rock Creek Pkwy"
+                ],
+                "city": "Kansas City",
+                "state": "MO",
+                "postalCode": "64117-2521",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/2f8f5ec1-b7b8-4be5-ae27-e308284dd9c1/"
+      }
+    },
+    {
       "resource": {
         "resourceType": "Endpoint",
         "id": "d099f3aa-0761-4b26-afb2-b7a6d565f0ce",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "Od099f3aa-0761-4b26-afb2-b7a6d565f0ce",
+            "name": "Saint Joseph's Medical Center",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "127 S Broadway"
+                ],
+                "city": "Yonkers",
+                "state": "NY",
+                "postalCode": "10701-4006",
+                "country": "United States of America"
               }
             ]
           }
         ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Od099f3aa-0761-4b26-afb2-b7a6d565f0ce"
+        },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/d099f3aa-0761-4b26-afb2-b7a6d565f0ce/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/Od099f3aa-0761-4b26-afb2-b7a6d565f0ce",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Od099f3aa-0761-4b26-afb2-b7a6d565f0ce",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.42166"
-          }
-        ],
-        "name": "Saint Joseph's Medical Center",
-        "address": [
-          {
-            "line": [
-              "127 S Broadway"
-            ],
-            "city": "Yonkers",
-            "state": "NY",
-            "postalCode": "10701-4006",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/d099f3aa-0761-4b26-afb2-b7a6d565f0ce"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Endpoint/8c4b7810-13a5-4a82-9e13-439865842bde",
       "resource": {
         "resourceType": "Endpoint",
-        "id": "8c4b7810-13a5-4a82-9e13-439865842bde",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
+        "id": "1c8544d5-3744-479c-ad10-a92153184d75",
+        "contained": [
           {
-            "coding": [
+            "resourceType": "Organization",
+            "id": "O1c8544d5-3744-479c-ad10-a92153184d75",
+            "name": "Southampton Hospital",
+            "address": [
               {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
+                "line": [
+                  "240 Meeting House Ln"
+                ],
+                "city": "Southampton",
+                "state": "NY",
+                "postalCode": "11968-5009",
+                "country": "United States of America"
               }
             ]
           }
         ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O1c8544d5-3744-479c-ad10-a92153184d75"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/1c8544d5-3744-479c-ad10-a92153184d75/"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "8c4b7810-13a5-4a82-9e13-439865842bde",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "O8c4b7810-13a5-4a82-9e13-439865842bde",
+            "name": "St. Mary's Medical Center",
+            "address": [
+              {
+                "line": [
+                  "2900 1st Ave"
+                ],
+                "city": "Huntington",
+                "state": "WV",
+                "postalCode": "25702-1241",
+                "country": "United States of America"
+              }
+            ]
+          }
+        ],
+        "status": "active",
+        "managingOrganization": {
+          "id": "#O8c4b7810-13a5-4a82-9e13-439865842bde"
+        },
         "address": "https://fhir-myrecord-sc.cerner.com/r4/8c4b7810-13a5-4a82-9e13-439865842bde/"
       }
     },
     {
-      "fullUrl": "https://fhir-myrecord-sc.cerner.com/Organization/O8c4b7810-13a5-4a82-9e13-439865842bde",
       "resource": {
-        "resourceType": "Organization",
-        "id": "O8c4b7810-13a5-4a82-9e13-439865842bde",
-        "identifier": [
+        "resourceType": "Endpoint",
+        "id": "e3780ef1-62a9-42cb-b6ff-304b3fcb2e6c",
+        "contained": [
           {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.37735"
+            "resourceType": "Organization",
+            "id": "Oe3780ef1-62a9-42cb-b6ff-304b3fcb2e6c",
+            "name": "Weirton Medical Center",
+            "address": [
+              {
+                "line": [
+                  "601 Colliers Way"
+                ],
+                "city": "Weirton",
+                "state": "WV",
+                "postalCode": "26062-5014",
+                "country": "United States of America"
+              }
+            ]
           }
         ],
-        "name": "St. Mary's Medical Center",
-        "address": [
-          {
-            "line": [
-              "2900 1st Ave"
-            ],
-            "city": "Huntington",
-            "state": "WV",
-            "postalCode": "25702-1241",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/8c4b7810-13a5-4a82-9e13-439865842bde"
-          }
-        ]
+        "status": "active",
+        "managingOrganization": {
+          "id": "#Oe3780ef1-62a9-42cb-b6ff-304b3fcb2e6c"
+        },
+        "address": "https://fhir-myrecord-sc.cerner.com/r4/e3780ef1-62a9-42cb-b6ff-304b3fcb2e6c/"
       }
     }
   ]
