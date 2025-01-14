@@ -10,3 +10,15 @@ to receive notifications when the list is updated.
 
 ## Consuming the List
 To consume this from a service, we recommend that you use the [GitHub API](https://developer.github.com/v3/)
+
+## Contributing
+
+This project welcomes contributions from the community. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md)
+
+## Security
+
+Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process
+
+## License
+
+Copyright (c) 2023, 2025 Oracle and/or its affiliates.
