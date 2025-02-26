@@ -13395,6 +13395,11 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1104565936"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1306269741"
           },
           {
@@ -13911,62 +13916,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/29f657f0-c982-48e4-aa91-691f7be0aedf"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/2EuGk7-L9yQEIe3zCVdUtuMyPHe6bFAG",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "2EuGk7-L9yQEIe3zCVdUtuMyPHe6bFAG",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/2EuGk7_L9yQEIe3zCVdUtuMyPHe6bFAG/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O2EuGk7-L9yQEIe3zCVdUtuMyPHe6bFAG",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O2EuGk7-L9yQEIe3zCVdUtuMyPHe6bFAG",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "85-0483680"
-          }
-        ],
-        "name": "Michelle Yang MD",
-        "address": [
-          {
-            "line": [
-              "923 9th St Ste B"
-            ],
-            "city": "Alamogordo",
-            "state": "NM",
-            "postalCode": "88310",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/2EuGk7-L9yQEIe3zCVdUtuMyPHe6bFAG"
           }
         ]
       }
@@ -17416,7 +17365,7 @@
         "address": [
           {
             "line": [
-              "509 Biltm Ave Aka Hwy 25"
+              "509 Biltmore Ave"
             ],
             "city": "Asheville",
             "state": "NC",
@@ -19614,11 +19563,6 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.4.6"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.9559"
           }
         ],
         "name": "CABELL HUNTINGTON HOSPITAL",
@@ -25526,6 +25470,62 @@
       }
     },
     {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/4cd1a241-f46d-4f25-80f2-af2c26c515bc",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "4cd1a241-f46d-4f25-80f2-af2c26c515bc",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/4cd1a241-f46d-4f25-80f2-af2c26c515bc/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O4cd1a241-f46d-4f25-80f2-af2c26c515bc",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O4cd1a241-f46d-4f25-80f2-af2c26c515bc",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10082"
+          }
+        ],
+        "name": "Morton County Health Systems, Inc.",
+        "address": [
+          {
+            "line": [
+              "445 Hilltop St"
+            ],
+            "city": "Elkhart",
+            "state": "KS",
+            "postalCode": "67950",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/4cd1a241-f46d-4f25-80f2-af2c26c515bc"
+          }
+        ]
+      }
+    },
+    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/4d334a73-dc4a-445d-a950-509dd7bc0fd9",
       "resource": {
         "resourceType": "Endpoint",
@@ -28817,6 +28817,11 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1265744361"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1174512131"
           },
           {
@@ -28832,7 +28837,17 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1013547231"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1114956414"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1609280171"
           },
           {
             "use": "official",
@@ -30498,11 +30513,11 @@
         "address": [
           {
             "line": [
-              "4755 Ogletown Stanton Rd"
+              "501 W. 14 St"
             ],
-            "city": "NEWARK",
+            "city": "Wilmington",
             "state": "DE",
-            "postalCode": "19718",
+            "postalCode": "19801",
             "country": "United States of America"
           }
         ],
@@ -31663,11 +31678,11 @@
         "address": [
           {
             "line": [
-              "G 32 35 Beecher Rd Ste B"
+              "1 McLaren Pkwy"
             ],
-            "city": "Flint",
+            "city": "Grand Blanc",
             "state": "MI",
-            "postalCode": "48532",
+            "postalCode": "48439",
             "country": "United States of America"
           }
         ],
@@ -32593,6 +32608,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.5013"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.779"
           },
           {
             "use": "official",
@@ -38461,7 +38481,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.5663"
           }
         ],
-        "name": "Ascension Via Christi",
+        "name": "Ascension via Christi Hospitals, Wichita KS, Inc",
         "address": [
           {
             "line": [
@@ -40196,6 +40216,67 @@
         "endpoint": [
           {
             "reference": "Endpoint/812e0a2c-a2ee-43b3-baef-01bf949ae18f"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/81ae421e-0273-40bd-85b5-5e4a188d476b",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "81ae421e-0273-40bd-85b5-5e4a188d476b",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/81ae421e-0273-40bd-85b5-5e4a188d476b/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O81ae421e-0273-40bd-85b5-5e4a188d476b",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O81ae421e-0273-40bd-85b5-5e4a188d476b",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "47-1244445"
+          },
+          {
+            "use": "official",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "84-4337864"
+          }
+        ],
+        "name": "NeuroPsychiatric Hospitals",
+        "address": [
+          {
+            "line": [
+              "112 W. Jefferson Blvd. Ste 600"
+            ],
+            "city": "South Bend",
+            "state": "IN",
+            "postalCode": "46601",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/81ae421e-0273-40bd-85b5-5e4a188d476b"
           }
         ]
       }
@@ -43994,6 +44075,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.6711"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.7813"
           }
         ],
         "name": "USA Health University Hospital",
@@ -44885,7 +44971,7 @@
         "address": [
           {
             "line": [
-              "509 Biltm Ave Aka Hwy 25"
+              "509 Biltmore Ave"
             ],
             "city": "Asheville",
             "state": "NC",
@@ -47226,62 +47312,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/9708be61-c717-4b6d-90d3-c1efafc5bba6"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/9719d5a9-c12c-45b7-aae3-501e08eb5252",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "9719d5a9-c12c-45b7-aae3-501e08eb5252",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/9719d5a9-c12c-45b7-aae3-501e08eb5252/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O9719d5a9-c12c-45b7-aae3-501e08eb5252",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O9719d5a9-c12c-45b7-aae3-501e08eb5252",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.342"
-          }
-        ],
-        "name": "HEALTHWISE, INCORPORATED",
-        "address": [
-          {
-            "line": [
-              "2601 N Bogus Basin Rd"
-            ],
-            "city": "BOISE",
-            "state": "ID",
-            "postalCode": "83702",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/9719d5a9-c12c-45b7-aae3-501e08eb5252"
           }
         ]
       }
@@ -54717,6 +54747,16 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.2077"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.4351"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.9551"
           },
           {
@@ -55958,11 +55998,6 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.5923"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.2036"
           },
           {
@@ -56019,6 +56054,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.5638"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.5923"
           },
           {
             "use": "official",
@@ -56728,11 +56768,6 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.7124"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.2109"
           },
           {
@@ -56874,6 +56909,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.6223"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.7124"
           },
           {
             "use": "official",
@@ -58547,6 +58587,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.2151"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.660"
           }
         ],
         "name": "Northern Arizona HealthCare",
@@ -61791,7 +61836,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.5395"
           }
         ],
-        "name": "Platte County Health Department - Platte City",
+        "name": "Platte County Health Department - Platte County",
         "address": [
           {
             "line": [
@@ -62637,8 +62682,8 @@
         "identifier": [
           {
             "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "20-2844893"
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.9989"
           }
         ],
         "name": "Metropolitan Nashville General Hospital",
@@ -71940,9 +71985,9 @@
         "address": [
           {
             "line": [
-              "1650 COWLES ST"
+              "1650 Cowles St"
             ],
-            "city": "Coldfoot",
+            "city": "Fairbanks",
             "state": "AK",
             "postalCode": "99701",
             "country": "United States of America"
@@ -72589,6 +72634,21 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.3257"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.3256"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.3258"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.1164"
           },
           {
@@ -72765,7 +72825,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.4433"
           }
         ],
-        "name": "Dr. Basim Z. Abdelkarim, MD Inc.",
+        "name": "Ideal Gastro",
         "address": [
           {
             "line": [
@@ -77226,7 +77286,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.4879"
           }
         ],
-        "name": "Keck Medicine of USC",
+        "name": "USC Health System on behalf of its inpatient and outpatient facilities",
         "address": [
           {
             "line": [
@@ -80213,7 +80273,7 @@
             "value": "urn:oid:2.16.840.1.113883.9.283"
           }
         ],
-        "name": "Madelia Community Hospital and Clinic (D/B/A Madelia Health)",
+        "name": "Madelia Health",
         "address": [
           {
             "line": [
@@ -87394,6 +87454,11 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1033930623"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1275022451"
           },
           {
@@ -87425,11 +87490,6 @@
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1346921939"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1124466859"
           },
           {
             "use": "official",
@@ -88049,8 +88109,8 @@
         "identifier": [
           {
             "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "223327664"
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.62430"
           }
         ],
         "name": "Associates In Otolaryngology of New Jersey, LLC",
