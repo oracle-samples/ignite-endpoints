@@ -1,14 +1,11 @@
 # Oracle Health FHIR Endpoints
 
-> [!IMPORTANT]
-> Use the new FHIR endpoints files based on the R4 Endpoint specification in the [oracle_health_fhir_endpoints](oracle_health_fhir_endpoints) directory.
->
-
 ## Overview
 
 This repository contains structured JSON data about the endpoints that are currently published for the Oracle Health Millennium Platform HL7 FHIR implementation, intended for patients and providers to access their healthcare data.
 
 ## Updates
+
 This list is updated periodically with new endpoints as well as updates or corrections to existing endpoints. We recommend that you watch our git history if you would like to receive notifications when the list is updated.
 
 ## Consuming the List
