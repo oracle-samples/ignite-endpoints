@@ -2030,62 +2030,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/0699f5e4-11ef-4cab-a1a5-a9d1e45fecf3",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "0699f5e4-11ef-4cab-a1a5-a9d1e45fecf3",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/0699f5e4-11ef-4cab-a1a5-a9d1e45fecf3/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O0699f5e4-11ef-4cab-a1a5-a9d1e45fecf3",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O0699f5e4-11ef-4cab-a1a5-a9d1e45fecf3",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1326571308"
-          }
-        ],
-        "name": "Podiatry Associates of Lake County",
-        "address": [
-          {
-            "line": [
-              "161 E. Washington Street"
-            ],
-            "city": "Painesville",
-            "state": "OH",
-            "postalCode": "44077",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/0699f5e4-11ef-4cab-a1a5-a9d1e45fecf3"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/069aa823-6cc6-4055-a813-dbffdfcd16ac",
       "resource": {
         "resourceType": "Endpoint",
@@ -2585,6 +2529,62 @@
         "endpoint": [
           {
             "reference": "Endpoint/07af479d-1794-4b56-b7f8-74ad337e7233"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/08216604-fc95-489b-8e5b-408e049ac03c",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "08216604-fc95-489b-8e5b-408e049ac03c",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/08216604-fc95-489b-8e5b-408e049ac03c/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O08216604-fc95-489b-8e5b-408e049ac03c",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O08216604-fc95-489b-8e5b-408e049ac03c",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "334119216"
+          }
+        ],
+        "name": "Luxer Urgent Care",
+        "address": [
+          {
+            "line": [
+              "3967 Thousand Oaks Blvd. Suite 140"
+            ],
+            "city": "Westlake Village",
+            "state": "CA",
+            "postalCode": "91362",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/08216604-fc95-489b-8e5b-408e049ac03c"
           }
         ]
       }
@@ -3680,6 +3680,11 @@
         "resourceType": "Organization",
         "id": "O0affe579-9d95-4ec1-b178-1df7328cc0a1",
         "identifier": [
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.1916"
+          },
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
@@ -7746,62 +7751,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/18845894-5a9c-4f61-b462-cea2ada953b3",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "18845894-5a9c-4f61-b462-cea2ada953b3",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/18845894-5a9c-4f61-b462-cea2ada953b3/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O18845894-5a9c-4f61-b462-cea2ada953b3",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O18845894-5a9c-4f61-b462-cea2ada953b3",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "204434242"
-          }
-        ],
-        "name": "Dustin Hubbard, DPM",
-        "address": [
-          {
-            "line": [
-              "1405 Kellum St Suite 200"
-            ],
-            "city": "Fairbanks",
-            "state": "AK",
-            "postalCode": "99701",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/18845894-5a9c-4f61-b462-cea2ada953b3"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/18873135-3bbb-44c9-950a-a010c0269f4b",
       "resource": {
         "resourceType": "Endpoint",
@@ -8978,62 +8927,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/1b77ef85-4263-4810-a991-372a36dc4ff0"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/1ba56762-29f3-48fc-ab7a-bea5f733932b",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "1ba56762-29f3-48fc-ab7a-bea5f733932b",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/1ba56762-29f3-48fc-ab7a-bea5f733932b/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O1ba56762-29f3-48fc-ab7a-bea5f733932b",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O1ba56762-29f3-48fc-ab7a-bea5f733932b",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.7043"
-          }
-        ],
-        "name": "Pediatric Associates, Inc.",
-        "address": [
-          {
-            "line": [
-              "7910 W Jefferson Blvd Ste 201"
-            ],
-            "city": "Fort Wayne",
-            "state": "IN",
-            "postalCode": "46804",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/1ba56762-29f3-48fc-ab7a-bea5f733932b"
           }
         ]
       }
@@ -13050,11 +12943,6 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1093426439"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1508370230"
           },
           {
@@ -13070,11 +12958,6 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1700581683"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1427371632"
           },
           {
@@ -13085,12 +12968,12 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1104565936"
+            "value": "1306269741"
           },
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1306269741"
+            "value": "1912958281"
           },
           {
             "use": "official",
@@ -13100,12 +12983,12 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1013271642"
+            "value": "1437483278"
           },
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1437483278"
+            "value": "1417535188"
           },
           {
             "use": "official",
@@ -14050,6 +13933,11 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.9180"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.4372"
           },
           {
@@ -14211,11 +14099,6 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.6249"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.9180"
           },
           {
             "use": "official",
@@ -16022,6 +15905,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.1369"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.2106"
           }
         ],
         "name": "College Medical Center",
@@ -16709,11 +16597,11 @@
         "address": [
           {
             "line": [
-              "1400 Andrews Pkwy #1040"
+              "315 Rock St #1409"
             ],
-            "city": "Allen",
-            "state": "TX",
-            "postalCode": "75002",
+            "city": "Little Rock",
+            "state": "AR",
+            "postalCode": "72202",
             "country": "United States of America"
           }
         ],
@@ -17100,6 +16988,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:1.3.6.1.4.1.21367"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.660"
           }
         ],
         "name": "MH Master Holdings, LLLP by its general partner, MH Master, LLC",
@@ -19259,11 +19152,11 @@
         "address": [
           {
             "line": [
-              "6217 Country Club Dr"
+              "1340 Hal Greer Boulevard"
             ],
             "city": "Huntington",
             "state": "WV",
-            "postalCode": "25705",
+            "postalCode": "25701",
             "country": "United States of America"
           }
         ],
@@ -20242,6 +20135,62 @@
       }
     },
     {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/3d3dd162-fab9-4f80-ae08-54f08e64d788",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "3d3dd162-fab9-4f80-ae08-54f08e64d788",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/3d3dd162-fab9-4f80-ae08-54f08e64d788/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O3d3dd162-fab9-4f80-ae08-54f08e64d788",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O3d3dd162-fab9-4f80-ae08-54f08e64d788",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "582276380"
+          }
+        ],
+        "name": "Strand Psychiatric Associates, PA",
+        "address": [
+          {
+            "line": [
+              "3025 New Castle Loop"
+            ],
+            "city": "Myrtle Beach",
+            "state": "SC",
+            "postalCode": "29588",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/3d3dd162-fab9-4f80-ae08-54f08e64d788"
+          }
+        ]
+      }
+    },
+    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/3d7077ef-b320-499e-93ef-04794be13f6c",
       "resource": {
         "resourceType": "Endpoint",
@@ -20741,62 +20690,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/3ed7024d-31b1-4539-9702-b0342e4213ca"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/3fe0dd43-a33d-4fd4-a49d-ab2fa460e893",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "3fe0dd43-a33d-4fd4-a49d-ab2fa460e893",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/3fe0dd43-a33d-4fd4-a49d-ab2fa460e893/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O3fe0dd43-a33d-4fd4-a49d-ab2fa460e893",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O3fe0dd43-a33d-4fd4-a49d-ab2fa460e893",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "47-0871014"
-          }
-        ],
-        "name": "Luis F. Soto,LLC.",
-        "address": [
-          {
-            "line": [
-              "4300 Houma Blvd"
-            ],
-            "city": "Metairie",
-            "state": "LA",
-            "postalCode": "70006",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/3fe0dd43-a33d-4fd4-a49d-ab2fa460e893"
           }
         ]
       }
@@ -30773,62 +30666,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/615b7fd0-1a3d-4d15-b741-67add249edfe",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "615b7fd0-1a3d-4d15-b741-67add249edfe",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/615b7fd0-1a3d-4d15-b741-67add249edfe/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O615b7fd0-1a3d-4d15-b741-67add249edfe",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O615b7fd0-1a3d-4d15-b741-67add249edfe",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1982794707"
-          }
-        ],
-        "name": "North Essex Medical Associates",
-        "address": [
-          {
-            "line": [
-              "5 Franklin Avenue 609"
-            ],
-            "city": "Belleville",
-            "state": "NJ",
-            "postalCode": "07109",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/615b7fd0-1a3d-4d15-b741-67add249edfe"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/6215f07a-9916-4137-9055-84bc5a503a57",
       "resource": {
         "resourceType": "Endpoint",
@@ -31042,11 +30879,11 @@
         "address": [
           {
             "line": [
-              "2351 Clay St"
+              "3555 CESAR CHAVEZ"
             ],
-            "city": "SAN FRANCISCO",
+            "city": "San Francisco",
             "state": "CA",
-            "postalCode": "941151931",
+            "postalCode": "94110",
             "country": "United States of America"
           }
         ],
@@ -38786,62 +38623,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/8004d35e-3cbe-40a8-8f64-f3def78d8499",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "8004d35e-3cbe-40a8-8f64-f3def78d8499",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/8004d35e-3cbe-40a8-8f64-f3def78d8499/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O8004d35e-3cbe-40a8-8f64-f3def78d8499",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O8004d35e-3cbe-40a8-8f64-f3def78d8499",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.53926"
-          }
-        ],
-        "name": "ABC Pediatrics",
-        "address": [
-          {
-            "line": [
-              "695 N Krome Ave"
-            ],
-            "city": "Homestead",
-            "state": "FL",
-            "postalCode": "33030",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/8004d35e-3cbe-40a8-8f64-f3def78d8499"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/802a71be-a559-4f91-97b8-8d4875271bca",
       "resource": {
         "resourceType": "Endpoint",
@@ -39473,6 +39254,62 @@
         "endpoint": [
           {
             "reference": "Endpoint/81ed713e-778e-4b5c-9b69-03c747a235d6"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/8222ab26-0827-407d-9156-c671dd2b93d6",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "8222ab26-0827-407d-9156-c671dd2b93d6",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/8222ab26-0827-407d-9156-c671dd2b93d6/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O8222ab26-0827-407d-9156-c671dd2b93d6",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O8222ab26-0827-407d-9156-c671dd2b93d6",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.63987"
+          }
+        ],
+        "name": "New York Neurology Associates",
+        "address": [
+          {
+            "line": [
+              "61 Carol Street"
+            ],
+            "city": "Lynbrook",
+            "state": "NY",
+            "postalCode": "11563",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/8222ab26-0827-407d-9156-c671dd2b93d6"
           }
         ]
       }
@@ -41706,7 +41543,7 @@
             "line": [
               "85 SIERRA PARK RD"
             ],
-            "city": "MAMMOTH LAKES",
+            "city": "Mammoth Lakes",
             "state": "CA",
             "postalCode": "93546",
             "country": "United States of America"
@@ -42596,15 +42433,15 @@
             "value": "45-4232470"
           }
         ],
-        "name": "Dr. Glen E. Hurst",
+        "name": "Glenn Hurst MD, P.C.",
         "address": [
           {
             "line": [
-              "401 Broadway Street"
+              "1023 Jones Street #705"
             ],
-            "city": "Minden",
-            "state": "IA",
-            "postalCode": "51553",
+            "city": "Omaha",
+            "state": "NE",
+            "postalCode": "68102",
             "country": "United States of America"
           }
         ],
@@ -43488,7 +43325,7 @@
               "12101 Woodcrest Executive Drive"
             ],
             "city": "St Louis",
-            "state": "MISSOURI",
+            "state": "MO",
             "postalCode": "63141",
             "country": "United States of America"
           }
@@ -44502,6 +44339,26 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.2936"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.9672"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.7485"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.7486"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.7487"
           },
           {
             "use": "official",
@@ -46834,7 +46691,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.1069"
           }
         ],
-        "name": "Jackson Health System",
+        "name": "Public Health Trust of Miami-Dade County",
         "address": [
           {
             "line": [
@@ -46952,7 +46809,7 @@
             "line": [
               "25 Jacobs Gulch Rd"
             ],
-            "city": "KELLOGG",
+            "city": "Kellogg",
             "state": "ID",
             "postalCode": "83837",
             "country": "United States of America"
@@ -50677,6 +50534,11 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1235402710"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1962415059"
           },
           {
@@ -51598,6 +51460,11 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10175"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.3308"
           },
           {
@@ -52348,11 +52215,11 @@
         "address": [
           {
             "line": [
-              "6567 E Carondelet Dr Ste 305"
+              "4753 E CAMP LOWELL DR"
             ],
-            "city": "Tucson",
+            "city": "TUCSON",
             "state": "AZ",
-            "postalCode": "85710",
+            "postalCode": "85712",
             "country": "United States of America"
           }
         ],
@@ -59388,8 +59255,8 @@
         "identifier": [
           {
             "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "453045401"
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.63838"
           }
         ],
         "name": "West Point Medical Group",
@@ -60067,9 +59934,14 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.4429"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.660"
           }
         ],
-        "name": "Regional one health",
+        "name": "Regional One Health",
         "address": [
           {
             "line": [
@@ -64134,7 +64006,7 @@
             "line": [
               "239 Ave Arterial Hostos Ste 1202"
             ],
-            "city": "San Juan",
+            "city": "SAN JUAN",
             "state": "PR",
             "postalCode": "00918",
             "country": "Puerto Rico"
@@ -64935,16 +64807,6 @@
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1821197385"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1316302151"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1013004852"
           }
         ],
         "name": "Tri City Pulmonary Medical Group",
@@ -68178,10 +68040,10 @@
         "address": [
           {
             "line": [
-              "753 E Scenic Dr Pass Christian"
+              "753 E Scenic Dr"
             ],
             "city": "Pass Christian",
-            "state": "MISSISSIPPI",
+            "state": "MS",
             "postalCode": "39571",
             "country": "United States of America"
           }
@@ -71587,62 +71449,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/d80c61f8-55e9-4f03-aac2-d990f2ee9aa9",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "d80c61f8-55e9-4f03-aac2-d990f2ee9aa9",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/d80c61f8-55e9-4f03-aac2-d990f2ee9aa9/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Od80c61f8-55e9-4f03-aac2-d990f2ee9aa9",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Od80c61f8-55e9-4f03-aac2-d990f2ee9aa9",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "222411927"
-          }
-        ],
-        "name": "Essex Women's Health Center",
-        "address": [
-          {
-            "line": [
-              "33 N Fullerton Ave"
-            ],
-            "city": "Montclair",
-            "state": "NJ",
-            "postalCode": "07042",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/d80c61f8-55e9-4f03-aac2-d990f2ee9aa9"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/d88010de-d791-42d4-b72d-513f9afc5ed1",
       "resource": {
         "resourceType": "Endpoint",
@@ -74197,11 +74003,6 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1316915267"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1619024502"
           },
           {
@@ -75036,10 +74837,15 @@
           {
             "use": "official",
             "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "36-2728373"
+          },
+          {
+            "use": "official",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
             "value": "352515541"
           }
         ],
-        "name": "Hazelden Foundation",
+        "name": "Hazelden Betty Ford Foundation",
         "address": [
           {
             "line": [
@@ -83701,17 +83507,7 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.2874"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.2975"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.2976"
+            "value": "urn:oid:2.16.840.1.113883.3.660"
           }
         ],
         "name": "Aultman Health Foundation",
@@ -85359,7 +85155,17 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1558253310"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1346921939"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1326922154"
           },
           {
             "use": "official",
@@ -85595,7 +85401,7 @@
         "address": [
           {
             "line": [
-              "1213 Hylton Heights Rd Ste 101"
+              "1325 Research Park Drive"
             ],
             "city": "Manhattan",
             "state": "KS",
