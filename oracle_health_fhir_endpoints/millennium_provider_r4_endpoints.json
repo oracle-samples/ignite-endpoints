@@ -284,6 +284,62 @@
       }
     },
     {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/00647884-2425-4aef-9dfc-60b7447da45a",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "00647884-2425-4aef-9dfc-60b7447da45a",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/00647884-2425-4aef-9dfc-60b7447da45a/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O00647884-2425-4aef-9dfc-60b7447da45a",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O00647884-2425-4aef-9dfc-60b7447da45a",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.3370"
+          }
+        ],
+        "name": "COUNTY OF ORANGE HEALTH CARE AGENCY",
+        "address": [
+          {
+            "line": [
+              "400 W. Civic Center Drive"
+            ],
+            "city": "Santa Ana",
+            "state": "CA",
+            "postalCode": "92701",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/00647884-2425-4aef-9dfc-60b7447da45a"
+          }
+        ]
+      }
+    },
+    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/00a074df-768e-479f-9c8c-52c5c5bbe010",
       "resource": {
         "resourceType": "Endpoint",
@@ -2566,8 +2622,8 @@
         "identifier": [
           {
             "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "334119216"
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.64555"
           }
         ],
         "name": "Luxer Urgent Care",
@@ -2783,11 +2839,6 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.4859"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.2813"
           },
           {
@@ -2809,6 +2860,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.2792"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.4859"
           },
           {
             "use": "official",
@@ -4836,6 +4892,62 @@
         "endpoint": [
           {
             "reference": "Endpoint/0febeb13-8e64-489b-8219-6b0ac5c29683"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/0ffe150c-5435-4b81-b402-c9449af1a376",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "0ffe150c-5435-4b81-b402-c9449af1a376",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/0ffe150c-5435-4b81-b402-c9449af1a376/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O0ffe150c-5435-4b81-b402-c9449af1a376",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O0ffe150c-5435-4b81-b402-c9449af1a376",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.63981"
+          }
+        ],
+        "name": "hypertension nephrology associates",
+        "address": [
+          {
+            "line": [
+              "735 Fitzwatertown Road"
+            ],
+            "city": "Willow Grove",
+            "state": "PA",
+            "postalCode": "19090",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/0ffe150c-5435-4b81-b402-c9449af1a376"
           }
         ]
       }
@@ -7858,62 +7970,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/188a9934-272e-40a6-b77d-07674ebcbb4e"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/18c2ddf7-cb55-4622-a2b3-eb9aad8f5a43",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "18c2ddf7-cb55-4622-a2b3-eb9aad8f5a43",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/18c2ddf7-cb55-4622-a2b3-eb9aad8f5a43/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O18c2ddf7-cb55-4622-a2b3-eb9aad8f5a43",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O18c2ddf7-cb55-4622-a2b3-eb9aad8f5a43",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.23"
-          }
-        ],
-        "name": "The Children's Hospital Corporation",
-        "address": [
-          {
-            "line": [
-              "300 Longwood Ave"
-            ],
-            "city": "Boston",
-            "state": "MA",
-            "postalCode": "02115",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/18c2ddf7-cb55-4622-a2b3-eb9aad8f5a43"
           }
         ]
       }
@@ -11944,62 +12000,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/24a392d6-e8f4-4f4c-9344-2c748653164b",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "24a392d6-e8f4-4f4c-9344-2c748653164b",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/24a392d6-e8f4-4f4c-9344-2c748653164b/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O24a392d6-e8f4-4f4c-9344-2c748653164b",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O24a392d6-e8f4-4f4c-9344-2c748653164b",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.899"
-          }
-        ],
-        "name": "TidalHealth",
-        "address": [
-          {
-            "line": [
-              "100 E. Carroll St."
-            ],
-            "city": "Salisbury",
-            "state": "MD",
-            "postalCode": "21801",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/24a392d6-e8f4-4f4c-9344-2c748653164b"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/24c3ea72-6b18-4192-9262-677c412fb10a",
       "resource": {
         "resourceType": "Endpoint",
@@ -12938,11 +12938,6 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1649082009"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1508370230"
           },
           {
@@ -12989,6 +12984,11 @@
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1417535188"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1114722071"
           },
           {
             "use": "official",
@@ -13162,6 +13162,26 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.2888"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10390"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10389"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10388"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10391"
           },
           {
             "use": "official",
@@ -18257,6 +18277,62 @@
       }
     },
     {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/36d07840-c916-4ccf-aa2f-8bc252a8face",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "36d07840-c916-4ccf-aa2f-8bc252a8face",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/36d07840-c916-4ccf-aa2f-8bc252a8face/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O36d07840-c916-4ccf-aa2f-8bc252a8face",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O36d07840-c916-4ccf-aa2f-8bc252a8face",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "383162435"
+          }
+        ],
+        "name": "Surgeons Choice Medical Center",
+        "address": [
+          {
+            "line": [
+              "22401 Foster Winter Dr"
+            ],
+            "city": "Southfield",
+            "state": "MI",
+            "postalCode": "48075",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/36d07840-c916-4ccf-aa2f-8bc252a8face"
+          }
+        ]
+      }
+    },
+    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/36d990dd-0e06-4a85-bc0f-4a8859d77748",
       "resource": {
         "resourceType": "Endpoint",
@@ -19906,67 +19982,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/3c7d34e4-f6df-45bc-8b63-906233176adc",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "3c7d34e4-f6df-45bc-8b63-906233176adc",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/3c7d34e4-f6df-45bc-8b63-906233176adc/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O3c7d34e4-f6df-45bc-8b63-906233176adc",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O3c7d34e4-f6df-45bc-8b63-906233176adc",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.1929"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.13"
-          }
-        ],
-        "name": "Shriners Hospitals For Children",
-        "address": [
-          {
-            "line": [
-              "2900 N Rocky Point Dr"
-            ],
-            "city": "TAMPA",
-            "state": "FL",
-            "postalCode": "33607",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/3c7d34e4-f6df-45bc-8b63-906233176adc"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/3c975af8-28ae-4d97-adec-66228015b5a8",
       "resource": {
         "resourceType": "Endpoint",
@@ -20167,8 +20182,8 @@
         "identifier": [
           {
             "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "582276380"
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.64453"
           }
         ],
         "name": "Strand Psychiatric Associates, PA",
@@ -25604,11 +25619,6 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.4.890"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.4.726"
           },
           {
@@ -25670,6 +25680,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.4.895"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.4.890"
           },
           {
             "use": "official",
@@ -28139,43 +28154,8 @@
         "identifier": [
           {
             "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1861480204"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1174512131"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1205490141"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1033644299"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1114956414"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1609280171"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1477015493"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1043290703"
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.64473"
           }
         ],
         "name": "Premier Health Care Group, PLLC",
@@ -42830,7 +42810,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.7813"
           }
         ],
-        "name": "USA Health University Hospital",
+        "name": "University of South Alabama Hospitals and Clinics",
         "address": [
           {
             "line": [
@@ -45398,7 +45378,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.2533"
           }
         ],
-        "name": "LifePoint Corporate Services, General Partnership",
+        "name": "LifePoint Corporate Services, General Partnership.",
         "address": [
           {
             "line": [
@@ -45693,6 +45673,62 @@
         "endpoint": [
           {
             "reference": "Endpoint/95bfb368-cccf-467f-b483-6c8f83ef71d6"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/95c62f9d-2884-4fa0-94af-73dfa538010c",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "95c62f9d-2884-4fa0-94af-73dfa538010c",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/95c62f9d-2884-4fa0-94af-73dfa538010c/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O95c62f9d-2884-4fa0-94af-73dfa538010c",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O95c62f9d-2884-4fa0-94af-73dfa538010c",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.64504"
+          }
+        ],
+        "name": "Advanced Care Providers",
+        "address": [
+          {
+            "line": [
+              "11422 S Western Ave"
+            ],
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60643",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/95c62f9d-2884-4fa0-94af-73dfa538010c"
           }
         ]
       }
@@ -46290,8 +46326,8 @@
         "identifier": [
           {
             "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1811100142"
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.3270"
           }
         ],
         "name": "North Carolina Neurology and Sleep Center",
@@ -47133,11 +47169,6 @@
         "resourceType": "Organization",
         "id": "O9b1dd89d-f09d-45d9-ac67-d4ba4699db91",
         "identifier": [
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1134195514"
-          },
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
@@ -49820,62 +49851,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/Es63ilPkkETpas1hoRy0bFNgpWFGLAl3",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "Es63ilPkkETpas1hoRy0bFNgpWFGLAl3",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/Es63ilPkkETpas1hoRy0bFNgpWFGLAl3/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/OEs63ilPkkETpas1hoRy0bFNgpWFGLAl3",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "OEs63ilPkkETpas1hoRy0bFNgpWFGLAl3",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.1521"
-          }
-        ],
-        "name": "CGH MEDICAL CENTER",
-        "address": [
-          {
-            "line": [
-              "100 E.Le Fevre Rd"
-            ],
-            "city": "STERLING",
-            "state": "IL",
-            "postalCode": "61081",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/Es63ilPkkETpas1hoRy0bFNgpWFGLAl3"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/FbEd2u1hjjAzrJT3wpsP33KAKZk6Vh2g",
       "resource": {
         "resourceType": "Endpoint",
@@ -51580,6 +51555,41 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.17.9549"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.17.9545"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.17.9551"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.17.9546"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.17.9548"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.17.9547"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.17.9550"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.17.9516"
           },
           {
@@ -51746,6 +51756,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.17.9465"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10349"
           },
           {
             "use": "official",
@@ -52437,6 +52452,11 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.1122"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.848"
           },
           {
@@ -52448,11 +52468,6 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.847"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.1122"
           },
           {
             "use": "official",
@@ -52982,6 +52997,11 @@
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1447233523"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1376546101"
           },
           {
             "use": "official",
@@ -54366,7 +54386,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.788"
           }
         ],
-        "name": "University of Missouri Health System",
+        "name": "The Curators of the University of Missouri on behalf of University of Missouri Health Care",
         "address": [
           {
             "line": [
@@ -54476,6 +54496,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.877"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.844"
           }
         ],
         "name": "San Antonio Regional Hospital",
@@ -55119,11 +55144,6 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.5929"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.5602"
           },
           {
@@ -55175,6 +55195,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.660"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.5929"
           },
           {
             "use": "official",
@@ -60779,11 +60804,6 @@
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1245438886"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1689677106"
           }
         ],
         "name": "St Charles Eye Center, Inc.",
@@ -63628,6 +63648,62 @@
       }
     },
     {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/bb3cf3a9-5187-4a0d-84d3-85d28a9b9a1a",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "bb3cf3a9-5187-4a0d-84d3-85d28a9b9a1a",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/bb3cf3a9-5187-4a0d-84d3-85d28a9b9a1a/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Obb3cf3a9-5187-4a0d-84d3-85d28a9b9a1a",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Obb3cf3a9-5187-4a0d-84d3-85d28a9b9a1a",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "993527472"
+          }
+        ],
+        "name": "Comprehensive Medical Healthcare",
+        "address": [
+          {
+            "line": [
+              "41153 Flat Shoals Parkway"
+            ],
+            "city": "Decatur",
+            "state": "GA",
+            "postalCode": "30034",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/bb3cf3a9-5187-4a0d-84d3-85d28a9b9a1a"
+          }
+        ]
+      }
+    },
+    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/bbbbf2b2-cfef-49ba-b1d3-f1f87b5e9013",
       "resource": {
         "resourceType": "Endpoint",
@@ -64457,7 +64533,7 @@
         "address": [
           {
             "line": [
-              "GLN:1100003148101 110S00000A"
+              "36 S STATE ST STE 1650"
             ],
             "city": "SALT LAKE CITY",
             "state": "UT",
@@ -64768,62 +64844,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/bf2bc40a-17cb-4353-8de2-68c75c849bc8"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/bf3cdcd1-e78b-4f0f-b435-3106b60f9492",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "bf3cdcd1-e78b-4f0f-b435-3106b60f9492",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/bf3cdcd1-e78b-4f0f-b435-3106b60f9492/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Obf3cdcd1-e78b-4f0f-b435-3106b60f9492",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Obf3cdcd1-e78b-4f0f-b435-3106b60f9492",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1821197385"
-          }
-        ],
-        "name": "Tri City Pulmonary Medical Group",
-        "address": [
-          {
-            "line": [
-              "3231 Waring Ct, Suite D"
-            ],
-            "city": "Oceanside",
-            "state": "CA",
-            "postalCode": "92056",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/bf3cdcd1-e78b-4f0f-b435-3106b60f9492"
           }
         ]
       }
@@ -65422,11 +65442,6 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1003002858"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1134197346"
           }
         ],
@@ -65602,9 +65617,9 @@
         "address": [
           {
             "line": [
-              "509 N Broad St"
+              "Non-GNR Dummy"
             ],
-            "city": "Woodbury",
+            "city": "Philipsburg",
             "state": "NJ",
             "postalCode": "08096",
             "country": "United States of America"
@@ -65669,62 +65684,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/c2a9aaad-29f4-4d5d-87b0-388c13a9b433"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/c2b12ebc-1d0f-4d73-b823-320cb1395bb5",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "c2b12ebc-1d0f-4d73-b823-320cb1395bb5",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/c2b12ebc-1d0f-4d73-b823-320cb1395bb5/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oc2b12ebc-1d0f-4d73-b823-320cb1395bb5",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oc2b12ebc-1d0f-4d73-b823-320cb1395bb5",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.23403"
-          }
-        ],
-        "name": "Sharp Healthcare",
-        "address": [
-          {
-            "line": [
-              "8695 Spectrum Center CT"
-            ],
-            "city": "San Diego",
-            "state": "CA",
-            "postalCode": "92123",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/c2b12ebc-1d0f-4d73-b823-320cb1395bb5"
           }
         ]
       }
@@ -65898,87 +65857,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/c30ce58a-2367-49b7-9f61-141cafe7a3eb"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/c32cb33f-ec61-4f25-9140-0b9b174fe4db",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "c32cb33f-ec61-4f25-9140-0b9b174fe4db",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/c32cb33f-ec61-4f25-9140-0b9b174fe4db/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oc32cb33f-ec61-4f25-9140-0b9b174fe4db",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oc32cb33f-ec61-4f25-9140-0b9b174fe4db",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.1090"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.747"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.746"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.751"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.750"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.579"
-          }
-        ],
-        "name": "Atrium Health",
-        "address": [
-          {
-            "line": [
-              "3600 Arco Corporate Drive Suite 300"
-            ],
-            "city": "CHARLOTTE",
-            "state": "NC",
-            "postalCode": "28273",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/c32cb33f-ec61-4f25-9140-0b9b174fe4db"
           }
         ]
       }
@@ -72229,17 +72107,17 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10112"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.10121"
           },
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.10126"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.10112"
           },
           {
             "use": "official",
@@ -77440,7 +77318,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.5855"
           }
         ],
-        "name": "Nebraska Orthopedic Hospital",
+        "name": "Nebraska Orthopaedic Hospital LLC",
         "address": [
           {
             "line": [
@@ -83563,6 +83441,11 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.821"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.818"
           },
           {
@@ -85125,6 +85008,11 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1861923641"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1275022451"
           },
           {
@@ -85897,8 +85785,8 @@
         "identifier": [
           {
             "use": "official",
-            "system": "urn:oid:2.16.840.1.113883.4.4",
-            "value": "04-3718090"
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.64103"
           }
         ],
         "name": "Cardiothoracic Associates of Hawaii",
