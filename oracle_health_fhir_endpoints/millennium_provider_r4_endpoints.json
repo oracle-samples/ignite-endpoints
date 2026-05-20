@@ -844,62 +844,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/01e186a8-87ec-4e25-bc02-8b7eb7d8fa78",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "01e186a8-87ec-4e25-bc02-8b7eb7d8fa78",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/01e186a8-87ec-4e25-bc02-8b7eb7d8fa78/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O01e186a8-87ec-4e25-bc02-8b7eb7d8fa78",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O01e186a8-87ec-4e25-bc02-8b7eb7d8fa78",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Chicago Wellness Center Coalition",
-        "address": [
-          {
-            "line": [
-              "1340 West Washington Boulevard"
-            ],
-            "city": "Chicago",
-            "state": "IL",
-            "postalCode": "60607",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/01e186a8-87ec-4e25-bc02-8b7eb7d8fa78"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/01f94e02-09c3-48f8-b3d5-d9516d905113",
       "resource": {
         "resourceType": "Endpoint",
@@ -1124,62 +1068,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/0276a61d-cfb3-486e-9665-b29201df0391"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/02a7a8bc-d7be-4d03-9c99-4404e94deb88",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "02a7a8bc-d7be-4d03-9c99-4404e94deb88",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/02a7a8bc-d7be-4d03-9c99-4404e94deb88/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O02a7a8bc-d7be-4d03-9c99-4404e94deb88",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O02a7a8bc-d7be-4d03-9c99-4404e94deb88",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "JE Dunn Construction Co.",
-        "address": [
-          {
-            "line": [
-              "2555 Cumberland Parkway SE"
-            ],
-            "city": "Atlanta",
-            "state": "GA",
-            "postalCode": "30339",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/02a7a8bc-d7be-4d03-9c99-4404e94deb88"
           }
         ]
       }
@@ -1577,62 +1465,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/039c5844-07d3-4b98-88f9-0db4fea884ad",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "039c5844-07d3-4b98-88f9-0db4fea884ad",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/039c5844-07d3-4b98-88f9-0db4fea884ad/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O039c5844-07d3-4b98-88f9-0db4fea884ad",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O039c5844-07d3-4b98-88f9-0db4fea884ad",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Dr Pepper Snapple Group - Irving",
-        "address": [
-          {
-            "line": [
-              "5301 Legacy Dr"
-            ],
-            "city": "Plano",
-            "state": "TX",
-            "postalCode": "75024",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/039c5844-07d3-4b98-88f9-0db4fea884ad"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/0434cb5f-f658-4821-a9c3-c13cf287f39b",
       "resource": {
         "resourceType": "Endpoint",
@@ -1801,123 +1633,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/04b7d73f-0769-4509-8cd9-c3061dc75979",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "04b7d73f-0769-4509-8cd9-c3061dc75979",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/04b7d73f-0769-4509-8cd9-c3061dc75979/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O04b7d73f-0769-4509-8cd9-c3061dc75979",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O04b7d73f-0769-4509-8cd9-c3061dc75979",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.58650"
-          }
-        ],
-        "name": "State of New Mexico",
-        "address": [
-          {
-            "line": [
-              "State Capitol Bldg"
-            ],
-            "city": "SANTA FE",
-            "state": "NM",
-            "postalCode": "87501",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/04b7d73f-0769-4509-8cd9-c3061dc75979"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/04ef40f1-a235-4643-beed-2150fa89cc96",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "04ef40f1-a235-4643-beed-2150fa89cc96",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/04ef40f1-a235-4643-beed-2150fa89cc96/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O04ef40f1-a235-4643-beed-2150fa89cc96",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O04ef40f1-a235-4643-beed-2150fa89cc96",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Weld County, Colorado",
-        "address": [
-          {
-            "line": [
-              "1150 \"O\" Street"
-            ],
-            "city": "Greeley",
-            "state": "CO",
-            "postalCode": "80631",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/04ef40f1-a235-4643-beed-2150fa89cc96"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/05a97b88-f719-405f-abbb-125ac71b7cee",
       "resource": {
         "resourceType": "Endpoint",
@@ -1969,62 +1684,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/05a97b88-f719-405f-abbb-125ac71b7cee"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/0635029c-ad2b-4c76-90de-10b216b6fefa",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "0635029c-ad2b-4c76-90de-10b216b6fefa",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/0635029c-ad2b-4c76-90de-10b216b6fefa/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O0635029c-ad2b-4c76-90de-10b216b6fefa",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O0635029c-ad2b-4c76-90de-10b216b6fefa",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.13"
-          }
-        ],
-        "name": "Healthe Employer Clinic",
-        "address": [
-          {
-            "line": [
-              "2800 Rockcreek Pkwy"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64117",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/0635029c-ad2b-4c76-90de-10b216b6fefa"
           }
         ]
       }
@@ -2240,7 +1899,7 @@
             "line": [
               "1760 COUNTY RD J"
             ],
-            "city": "WAHOO",
+            "city": "Wahoo",
             "state": "NE",
             "postalCode": "68066",
             "country": "United States of America"
@@ -10860,62 +10519,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/20a3a78c-c5c6-45f6-a1b4-84caff15a9cb",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "20a3a78c-c5c6-45f6-a1b4-84caff15a9cb",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/20a3a78c-c5c6-45f6-a1b4-84caff15a9cb/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O20a3a78c-c5c6-45f6-a1b4-84caff15a9cb",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O20a3a78c-c5c6-45f6-a1b4-84caff15a9cb",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "bioMerieux US",
-        "address": [
-          {
-            "line": [
-              "100 Rodolphe St"
-            ],
-            "city": "Durham",
-            "state": "NC",
-            "postalCode": "27712",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/20a3a78c-c5c6-45f6-a1b4-84caff15a9cb"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/20d7d246-549d-436f-88f7-e8d24a8a542b",
       "resource": {
         "resourceType": "Endpoint",
@@ -12280,62 +11883,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/256e21d7-83b6-43a8-a945-8a46e496b3df",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "256e21d7-83b6-43a8-a945-8a46e496b3df",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/256e21d7-83b6-43a8-a945-8a46e496b3df/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O256e21d7-83b6-43a8-a945-8a46e496b3df",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O256e21d7-83b6-43a8-a945-8a46e496b3df",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Toyota Industrial Equipment",
-        "address": [
-          {
-            "line": [
-              "6125 Inwood Dr"
-            ],
-            "city": "Columbus",
-            "state": "IN",
-            "postalCode": "47201",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/256e21d7-83b6-43a8-a945-8a46e496b3df"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/26081706-bf97-4a1b-96e4-2d82c3343f85",
       "resource": {
         "resourceType": "Endpoint",
@@ -12593,6 +12140,11 @@
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1508116369"
+          },
+          {
+            "use": "official",
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1477430346"
           },
           {
             "use": "official",
@@ -12943,11 +12495,6 @@
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1255147765"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1679245914"
           },
           {
@@ -12989,11 +12536,6 @@
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1114722071"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1174161962"
           }
         ],
         "name": "First Coast Infectious Disease",
@@ -13214,62 +12756,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/28FMw-aQtzSqkrYbQSc2Fss9Rc-nhEOH"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/28b635e9-1338-4104-a4e8-4056bb914688",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "28b635e9-1338-4104-a4e8-4056bb914688",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/28b635e9-1338-4104-a4e8-4056bb914688/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O28b635e9-1338-4104-a4e8-4056bb914688",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O28b635e9-1338-4104-a4e8-4056bb914688",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Healthe Employer Clinic",
-        "address": [
-          {
-            "line": [
-              "2800 Rockcreek Pkwy"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64117",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/28b635e9-1338-4104-a4e8-4056bb914688"
           }
         ]
       }
@@ -22019,62 +21505,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/4211ccc0-df3c-4100-a077-f6b59ef3ddba",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "4211ccc0-df3c-4100-a077-f6b59ef3ddba",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/4211ccc0-df3c-4100-a077-f6b59ef3ddba/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O4211ccc0-df3c-4100-a077-f6b59ef3ddba",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O4211ccc0-df3c-4100-a077-f6b59ef3ddba",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "CITY OF CHANDLER",
-        "address": [
-          {
-            "line": [
-              "811 Hwy 31 E"
-            ],
-            "city": "Chandler",
-            "state": "TX",
-            "postalCode": "75758",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/4211ccc0-df3c-4100-a077-f6b59ef3ddba"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/42531be2-cc81-4ca4-b6c8-9b0ab56190c5",
       "resource": {
         "resourceType": "Endpoint",
@@ -24813,62 +24243,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/4c6adde2-a0d9-4a6e-863e-ae8135e53612",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "4c6adde2-a0d9-4a6e-863e-ae8135e53612",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/4c6adde2-a0d9-4a6e-863e-ae8135e53612/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O4c6adde2-a0d9-4a6e-863e-ae8135e53612",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O4c6adde2-a0d9-4a6e-863e-ae8135e53612",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Black & Veatch",
-        "address": [
-          {
-            "line": [
-              "11401 Lamar Avenue"
-            ],
-            "city": "Overland Park",
-            "state": "KS",
-            "postalCode": "66211",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/4c6adde2-a0d9-4a6e-863e-ae8135e53612"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/4cd1a241-f46d-4f25-80f2-af2c26c515bc",
       "resource": {
         "resourceType": "Endpoint",
@@ -26432,62 +25806,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/50cd0cd2-ca52-4b72-b171-92a8aa1b1cda",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "50cd0cd2-ca52-4b72-b171-92a8aa1b1cda",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/50cd0cd2-ca52-4b72-b171-92a8aa1b1cda/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O50cd0cd2-ca52-4b72-b171-92a8aa1b1cda",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O50cd0cd2-ca52-4b72-b171-92a8aa1b1cda",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "PNC Financial Services Group",
-        "address": [
-          {
-            "line": [
-              "249 5th Ave"
-            ],
-            "city": "PITTSBURGH",
-            "state": "PA",
-            "postalCode": "15222",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/50cd0cd2-ca52-4b72-b171-92a8aa1b1cda"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/5118b28a-7a06-4865-8078-64025151437b",
       "resource": {
         "resourceType": "Endpoint",
@@ -27374,7 +26692,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.5489"
           }
         ],
-        "name": "NICKLAUS CHILDREN'S PEDIATRIC SPECIALISITS",
+        "name": "NICKLAUS CHILDRENS PEDIATRIC SPECIALISTS",
         "address": [
           {
             "line": [
@@ -27932,6 +27250,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.4.509"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.137"
           }
         ],
         "name": "Franklin Medical Center",
@@ -31144,62 +30467,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/62f77950-855b-4619-afdc-c0f78ebee30a",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "62f77950-855b-4619-afdc-c0f78ebee30a",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/62f77950-855b-4619-afdc-c0f78ebee30a/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O62f77950-855b-4619-afdc-c0f78ebee30a",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O62f77950-855b-4619-afdc-c0f78ebee30a",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Pandi Capital, LLC",
-        "address": [
-          {
-            "line": [
-              "209 W 47th St Ste 200"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64112",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/62f77950-855b-4619-afdc-c0f78ebee30a"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/635f51c4-b647-4331-af69-de60fc5578b8",
       "resource": {
         "resourceType": "Endpoint",
@@ -33459,6 +32726,62 @@
       }
     },
     {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/6c2e4e6d-e13b-45b5-9472-851cc4a641d9",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "6c2e4e6d-e13b-45b5-9472-851cc4a641d9",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/6c2e4e6d-e13b-45b5-9472-851cc4a641d9/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O6c2e4e6d-e13b-45b5-9472-851cc4a641d9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O6c2e4e6d-e13b-45b5-9472-851cc4a641d9",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.65539"
+          }
+        ],
+        "name": "Modern Urology Inc",
+        "address": [
+          {
+            "line": [
+              "4943 State Hwy 52 Suite 180"
+            ],
+            "city": "Dacono",
+            "state": "CO",
+            "postalCode": "80514",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/6c2e4e6d-e13b-45b5-9472-851cc4a641d9"
+          }
+        ]
+      }
+    },
+    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/6c3494f8-7b9b-4ede-8c64-fe61ee38010c",
       "resource": {
         "resourceType": "Endpoint",
@@ -35046,7 +34369,7 @@
             "value": "13-1624158"
           }
         ],
-        "name": "Rockefeller University Hospital",
+        "name": "The Rockefeller University Clinical Research Center",
         "address": [
           {
             "line": [
@@ -35173,62 +34496,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/711b57d3-78b2-41c6-971b-59cee3e8c70b"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/712e1ffa-9f67-48bf-9982-5320fbfe6aed",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "712e1ffa-9f67-48bf-9982-5320fbfe6aed",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/712e1ffa-9f67-48bf-9982-5320fbfe6aed/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O712e1ffa-9f67-48bf-9982-5320fbfe6aed",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O712e1ffa-9f67-48bf-9982-5320fbfe6aed",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Lake Havasu Unified School District",
-        "address": [
-          {
-            "line": [
-              "2200 Havasupai Blvd"
-            ],
-            "city": "Lake Havasu City",
-            "state": "AZ",
-            "postalCode": "86403",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/712e1ffa-9f67-48bf-9982-5320fbfe6aed"
           }
         ]
       }
@@ -35860,118 +35127,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/740aa98a-caaf-451b-aae6-eb82372d1859",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "740aa98a-caaf-451b-aae6-eb82372d1859",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/740aa98a-caaf-451b-aae6-eb82372d1859/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O740aa98a-caaf-451b-aae6-eb82372d1859",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O740aa98a-caaf-451b-aae6-eb82372d1859",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6177"
-          }
-        ],
-        "name": "Richard S. Warner, MD",
-        "address": [
-          {
-            "line": [
-              "191 Lower St."
-            ],
-            "city": "Shelburne Falls",
-            "state": "MA",
-            "postalCode": "01370",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/740aa98a-caaf-451b-aae6-eb82372d1859"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/744c96da-65d7-4e37-a00c-996f4b604c11",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "744c96da-65d7-4e37-a00c-996f4b604c11",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/744c96da-65d7-4e37-a00c-996f4b604c11/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O744c96da-65d7-4e37-a00c-996f4b604c11",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O744c96da-65d7-4e37-a00c-996f4b604c11",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Automation Direct",
-        "address": [
-          {
-            "line": [
-              "3505 Hutchinson Rd"
-            ],
-            "city": "Cumming",
-            "state": "GA",
-            "postalCode": "30040",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/744c96da-65d7-4e37-a00c-996f4b604c11"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/7477d6d6-6e4b-48c8-a228-9a3bdab172a0",
       "resource": {
         "resourceType": "Endpoint",
@@ -36145,6 +35300,62 @@
         "endpoint": [
           {
             "reference": "Endpoint/7517efed-1048-4d65-8b97-98e147342cf5"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/75231f6c-c145-4119-ae7e-eb393f82fd9c",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "75231f6c-c145-4119-ae7e-eb393f82fd9c",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/75231f6c-c145-4119-ae7e-eb393f82fd9c/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O75231f6c-c145-4119-ae7e-eb393f82fd9c",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "O75231f6c-c145-4119-ae7e-eb393f82fd9c",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:1.3.6.1.4.1.63932"
+          }
+        ],
+        "name": "Eastern Shoshone Tribe",
+        "address": [
+          {
+            "line": [
+              "29 Black Coal Drive"
+            ],
+            "city": "Wind River",
+            "state": "WY",
+            "postalCode": "82514",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/75231f6c-c145-4119-ae7e-eb393f82fd9c"
           }
         ]
       }
@@ -36944,62 +36155,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/77c2b089-5ae8-473f-98a4-de9173e168aa"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/77cef438-d9a8-4c2b-a90a-6d877ebd2afb",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "77cef438-d9a8-4c2b-a90a-6d877ebd2afb",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/77cef438-d9a8-4c2b-a90a-6d877ebd2afb/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O77cef438-d9a8-4c2b-a90a-6d877ebd2afb",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O77cef438-d9a8-4c2b-a90a-6d877ebd2afb",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Wyandotte County",
-        "address": [
-          {
-            "line": [
-              "701 N 7th St"
-            ],
-            "city": "Kansas City",
-            "state": "KS",
-            "postalCode": "66101",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/77cef438-d9a8-4c2b-a90a-6d877ebd2afb"
           }
         ]
       }
@@ -38191,62 +37346,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/7e8a1d3b-132c-4f07-97be-f81fc4642359",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "7e8a1d3b-132c-4f07-97be-f81fc4642359",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/7e8a1d3b-132c-4f07-97be-f81fc4642359/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O7e8a1d3b-132c-4f07-97be-f81fc4642359",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O7e8a1d3b-132c-4f07-97be-f81fc4642359",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Healthe Employer Clinic",
-        "address": [
-          {
-            "line": [
-              "2800 Rockcreek Pkwy"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64117",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/7e8a1d3b-132c-4f07-97be-f81fc4642359"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/7ed31fb5-e400-4548-abad-bc7a3710bd4a",
       "resource": {
         "resourceType": "Endpoint",
@@ -39111,73 +38210,17 @@
         "address": [
           {
             "line": [
-              "112 W. Jefferson Blvd. Ste 600"
+              "1346 E McDowell"
             ],
-            "city": "South Bend",
-            "state": "IN",
-            "postalCode": "46601",
+            "city": "Phoenix",
+            "state": "AZ",
+            "postalCode": "85006",
             "country": "United States of America"
           }
         ],
         "endpoint": [
           {
             "reference": "Endpoint/81ae421e-0273-40bd-85b5-5e4a188d476b"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/81eb3df5-7690-4c07-9f5d-6ffda1c2ed5c",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "81eb3df5-7690-4c07-9f5d-6ffda1c2ed5c",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/81eb3df5-7690-4c07-9f5d-6ffda1c2ed5c/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O81eb3df5-7690-4c07-9f5d-6ffda1c2ed5c",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O81eb3df5-7690-4c07-9f5d-6ffda1c2ed5c",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "MCHCP Missouri Consolidated Health Care Plan",
-        "address": [
-          {
-            "line": [
-              "832 Weathered Rock Court"
-            ],
-            "city": "Jefferson City",
-            "state": "MO",
-            "postalCode": "65101",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/81eb3df5-7690-4c07-9f5d-6ffda1c2ed5c"
           }
         ]
       }
@@ -40608,62 +39651,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/86fe2a9d-7304-48e6-91d1-0feeb3fee8ac",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "86fe2a9d-7304-48e6-91d1-0feeb3fee8ac",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/86fe2a9d-7304-48e6-91d1-0feeb3fee8ac/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O86fe2a9d-7304-48e6-91d1-0feeb3fee8ac",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O86fe2a9d-7304-48e6-91d1-0feeb3fee8ac",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "VIASAT, INC.",
-        "address": [
-          {
-            "line": [
-              "349 Inverness Drive South"
-            ],
-            "city": "Englewood",
-            "state": "CO",
-            "postalCode": "80112",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/86fe2a9d-7304-48e6-91d1-0feeb3fee8ac"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/870ba945-f258-4fb9-a3f5-2c79586392b9",
       "resource": {
         "resourceType": "Endpoint",
@@ -41929,62 +40916,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/8a1730d0-bc79-40c2-8aef-2fa30e00e904",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "8a1730d0-bc79-40c2-8aef-2fa30e00e904",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/8a1730d0-bc79-40c2-8aef-2fa30e00e904/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O8a1730d0-bc79-40c2-8aef-2fa30e00e904",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O8a1730d0-bc79-40c2-8aef-2fa30e00e904",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Hollister Incorporated",
-        "address": [
-          {
-            "line": [
-              "2000 Hollister Dr"
-            ],
-            "city": "Libertyville",
-            "state": "IL",
-            "postalCode": "60048",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/8a1730d0-bc79-40c2-8aef-2fa30e00e904"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/8a279096-6ad2-4c68-ac31-bf88e291604e",
       "resource": {
         "resourceType": "Endpoint",
@@ -42977,62 +41908,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/8d8e2b72-238a-4f00-88a3-8ba1a0a2d561"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/8dc8f3b9-781b-44a1-8832-9b919d42e2ad",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "8dc8f3b9-781b-44a1-8832-9b919d42e2ad",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/8dc8f3b9-781b-44a1-8832-9b919d42e2ad/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O8dc8f3b9-781b-44a1-8832-9b919d42e2ad",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O8dc8f3b9-781b-44a1-8832-9b919d42e2ad",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Americo Services Inc.",
-        "address": [
-          {
-            "line": [
-              "300 West 11th Street"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64105",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/8dc8f3b9-781b-44a1-8832-9b919d42e2ad"
           }
         ]
       }
@@ -44319,6 +43194,11 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.2936"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.1579"
           },
           {
             "use": "official",
@@ -45790,62 +44670,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/96697297-dedb-4b9a-a814-def7ebf7578f",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "96697297-dedb-4b9a-a814-def7ebf7578f",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/96697297-dedb-4b9a-a814-def7ebf7578f/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O96697297-dedb-4b9a-a814-def7ebf7578f",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O96697297-dedb-4b9a-a814-def7ebf7578f",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "St. Louis Kansas City Carpenters Regional Council",
-        "address": [
-          {
-            "line": [
-              "1401 Hampton Ave"
-            ],
-            "city": "St. Louis",
-            "state": "MO",
-            "postalCode": "63139",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/96697297-dedb-4b9a-a814-def7ebf7578f"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/9680e723-25c7-4fd0-85d5-1a4b8d8c4e0b",
       "resource": {
         "resourceType": "Endpoint",
@@ -46121,62 +44945,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/977e949f-0f0b-4a36-bf59-4f0819b90ab8"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/9785b033-fa30-4746-84ca-c07c9380c88e",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "9785b033-fa30-4746-84ca-c07c9380c88e",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/9785b033-fa30-4746-84ca-c07c9380c88e/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/O9785b033-fa30-4746-84ca-c07c9380c88e",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "O9785b033-fa30-4746-84ca-c07c9380c88e",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "CARROLL COUNTY MEMORIAL HOSPITAL",
-        "address": [
-          {
-            "line": [
-              "1502 N Jefferson"
-            ],
-            "city": "Carrollton",
-            "state": "MO",
-            "postalCode": "64633",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/9785b033-fa30-4746-84ca-c07c9380c88e"
           }
         ]
       }
@@ -52452,6 +51220,11 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.2831"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.1122"
           },
           {
@@ -52473,11 +51246,6 @@
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.1513"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.2831"
           }
         ],
         "name": "Penn Highlands DuBois",
@@ -53438,6 +52206,11 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10458"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.17.97"
           },
           {
@@ -53979,62 +52752,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/TtBa6m0CO2ykz03C9oGIAfs1lSi1ZBkp"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/U23aYKs-PV7Hmhkg4hb3eaygsqW71fRD",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "U23aYKs-PV7Hmhkg4hb3eaygsqW71fRD",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/U23aYKs_PV7Hmhkg4hb3eaygsqW71fRD/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/OU23aYKs-PV7Hmhkg4hb3eaygsqW71fRD",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "OU23aYKs-PV7Hmhkg4hb3eaygsqW71fRD",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.13"
-          }
-        ],
-        "name": "Cerner Healthe Clinic",
-        "address": [
-          {
-            "line": [
-              "2800 Rockcreek Pkwy"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64117",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/U23aYKs-PV7Hmhkg4hb3eaygsqW71fRD"
           }
         ]
       }
@@ -58220,62 +56937,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/a5d42041-57d2-4517-b428-b2228e570f69",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "a5d42041-57d2-4517-b428-b2228e570f69",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/a5d42041-57d2-4517-b428-b2228e570f69/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oa5d42041-57d2-4517-b428-b2228e570f69",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oa5d42041-57d2-4517-b428-b2228e570f69",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "The Children's Mercy Hospital",
-        "address": [
-          {
-            "line": [
-              "2401 Gillham Rd"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64108",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/a5d42041-57d2-4517-b428-b2228e570f69"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/a64573bd-48d1-453d-bc0b-03ac15ad915e",
       "resource": {
         "resourceType": "Endpoint",
@@ -58816,7 +57477,7 @@
             "value": "urn:oid:2.16.840.1.113883.3.8450"
           }
         ],
-        "name": "Escambia County Healthcare Authority",
+        "name": "Escambia County Health Care Authority",
         "address": [
           {
             "line": [
@@ -60770,62 +59431,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/ae718b75-7880-43e4-bded-99af66193990",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "ae718b75-7880-43e4-bded-99af66193990",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/ae718b75-7880-43e4-bded-99af66193990/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oae718b75-7880-43e4-bded-99af66193990",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oae718b75-7880-43e4-bded-99af66193990",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1245438886"
-          }
-        ],
-        "name": "St Charles Eye Center, Inc.",
-        "address": [
-          {
-            "line": [
-              "1005 Fairgrounds"
-            ],
-            "city": "Saint Charles",
-            "state": "MO",
-            "postalCode": "63301",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/ae718b75-7880-43e4-bded-99af66193990"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/aeb798ea-59c0-4b01-80ca-75ffd22a2d37",
       "resource": {
         "resourceType": "Endpoint",
@@ -61101,67 +59706,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/b1ca1c78-3ab5-405e-b1b1-fc89e2712a56"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/b1ef87a9-8303-439c-bd5c-f767f2077a02",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "b1ef87a9-8303-439c-bd5c-f767f2077a02",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/b1ef87a9-8303-439c-bd5c-f767f2077a02/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Ob1ef87a9-8303-439c-bd5c-f767f2077a02",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Ob1ef87a9-8303-439c-bd5c-f767f2077a02",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.57068"
-          }
-        ],
-        "name": "Delaware Valley Municipal Mgmt. Association",
-        "address": [
-          {
-            "line": [
-              "719 Dresher Road"
-            ],
-            "city": "Horsham",
-            "state": "PA",
-            "postalCode": "19044",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/b1ef87a9-8303-439c-bd5c-f767f2077a02"
           }
         ]
       }
@@ -61554,62 +60098,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/b362c1f3-597f-4469-8522-c052fca7c0a4"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/b363650e-9d3c-47f1-8011-4943dcc79def",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "b363650e-9d3c-47f1-8011-4943dcc79def",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/b363650e-9d3c-47f1-8011-4943dcc79def/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Ob363650e-9d3c-47f1-8011-4943dcc79def",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Ob363650e-9d3c-47f1-8011-4943dcc79def",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "T-Mobile",
-        "address": [
-          {
-            "line": [
-              "360 NEWARK POMPTON TPKE"
-            ],
-            "city": "WAYNE",
-            "state": "NJ",
-            "postalCode": "07470",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/b363650e-9d3c-47f1-8011-4943dcc79def"
           }
         ]
       }
@@ -66926,62 +65414,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/c8195850-d43d-46f4-bc2c-43fec4b8b989",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "c8195850-d43d-46f4-bc2c-43fec4b8b989",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/c8195850-d43d-46f4-bc2c-43fec4b8b989/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oc8195850-d43d-46f4-bc2c-43fec4b8b989",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oc8195850-d43d-46f4-bc2c-43fec4b8b989",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "CITY OF LENEXA",
-        "address": [
-          {
-            "line": [
-              "12350 WEST 87TH STREET"
-            ],
-            "city": "LENEXA",
-            "state": "KS",
-            "postalCode": "66285",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/c8195850-d43d-46f4-bc2c-43fec4b8b989"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/c858c747-c492-4c80-b098-823abe48bb82",
       "resource": {
         "resourceType": "Endpoint",
@@ -67598,62 +66030,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/cQCyYza-NNRL3fDPuYBFegoP-zJkDNOr",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "cQCyYza-NNRL3fDPuYBFegoP-zJkDNOr",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/cQCyYza_NNRL3fDPuYBFegoP-zJkDNOr/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/OcQCyYza-NNRL3fDPuYBFegoP-zJkDNOr",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "OcQCyYza-NNRL3fDPuYBFegoP-zJkDNOr",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.51500"
-          }
-        ],
-        "name": "Milwaukee Foot Specialists",
-        "address": [
-          {
-            "line": [
-              "3610 Michelle Wilmer Memorial Dr Ste 110"
-            ],
-            "city": "New Berlin",
-            "state": "WI",
-            "postalCode": "53151",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/cQCyYza-NNRL3fDPuYBFegoP-zJkDNOr"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/c-GakPKBwGEp9LXRCx-dgLzSCTzRDPZ4",
       "resource": {
         "resourceType": "Endpoint",
@@ -68170,6 +66546,26 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10351"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10352"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10350"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10355"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.3314"
           },
           {
@@ -68190,12 +66586,37 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10346"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10353"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.3317"
           },
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10354"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.3318"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10347"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10348"
           }
         ],
         "name": "UHS of Delaware, Inc",
@@ -68676,62 +67097,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/ce473a90-8f1a-4986-bfd2-44af80062115"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/ce7022a6-97a9-4e1d-a690-ced5152ae1da",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "ce7022a6-97a9-4e1d-a690-ced5152ae1da",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/ce7022a6-97a9-4e1d-a690-ced5152ae1da/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oce7022a6-97a9-4e1d-a690-ced5152ae1da",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oce7022a6-97a9-4e1d-a690-ced5152ae1da",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Maryland Live Casino",
-        "address": [
-          {
-            "line": [
-              "7002 Arundel Mills Circle"
-            ],
-            "city": "HANOVER",
-            "state": "MD",
-            "postalCode": "21076",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/ce7022a6-97a9-4e1d-a690-ced5152ae1da"
           }
         ]
       }
@@ -71780,62 +70145,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/d9d6c818-9b40-4c9f-8171-72c8c7a8d62d",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "d9d6c818-9b40-4c9f-8171-72c8c7a8d62d",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/d9d6c818-9b40-4c9f-8171-72c8c7a8d62d/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Od9d6c818-9b40-4c9f-8171-72c8c7a8d62d",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Od9d6c818-9b40-4c9f-8171-72c8c7a8d62d",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Anuva Health",
-        "address": [
-          {
-            "line": [
-              "2800 Rock Creek Pkwy"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64117",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/d9d6c818-9b40-4c9f-8171-72c8c7a8d62d"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/d9dc001d-1bc5-42f9-bd4d-eb79208fd32a",
       "resource": {
         "resourceType": "Endpoint",
@@ -72107,17 +70416,17 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.10126"
+          },
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.10112"
           },
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
             "value": "urn:oid:2.16.840.1.113883.3.10121"
-          },
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.10126"
           },
           {
             "use": "official",
@@ -72978,62 +71287,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/dc9cc670-c6ff-4240-acb5-59e5ad786041",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "dc9cc670-c6ff-4240-acb5-59e5ad786041",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/dc9cc670-c6ff-4240-acb5-59e5ad786041/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Odc9cc670-c6ff-4240-acb5-59e5ad786041",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Odc9cc670-c6ff-4240-acb5-59e5ad786041",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:1.3.6.1.4.1.55612"
-          }
-        ],
-        "name": "American Century",
-        "address": [
-          {
-            "line": [
-              "4500 Main St"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64111",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/dc9cc670-c6ff-4240-acb5-59e5ad786041"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/dca1cfb3-683c-4835-9b66-95a129c0bbc2",
       "resource": {
         "resourceType": "Endpoint",
@@ -73711,62 +71964,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/e13c1e21-bd04-471c-b46a-cb74f87dcaaa",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "e13c1e21-bd04-471c-b46a-cb74f87dcaaa",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/e13c1e21-bd04-471c-b46a-cb74f87dcaaa/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oe13c1e21-bd04-471c-b46a-cb74f87dcaaa",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oe13c1e21-bd04-471c-b46a-cb74f87dcaaa",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "State Of Kansas",
-        "address": [
-          {
-            "line": [
-              "DEPT OF EDUCATION"
-            ],
-            "city": "TOPEKA",
-            "state": "KS",
-            "postalCode": "66612",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/e13c1e21-bd04-471c-b46a-cb74f87dcaaa"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/e1517302-aa9f-41f1-ba0a-8919fe6c6001",
       "resource": {
         "resourceType": "Endpoint",
@@ -73853,11 +72050,6 @@
         "resourceType": "Organization",
         "id": "Oe1A5O-wfjp6bxazsKQMUgQtMMK-UwF9x",
         "identifier": [
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1003884925"
-          },
           {
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
@@ -74738,6 +72930,62 @@
         "endpoint": [
           {
             "reference": "Endpoint/e54ca37d-332e-47f6-85c8-4b653eedbcbc"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/e60dd76f-2355-47fe-85cf-f04cc40e0a16",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "e60dd76f-2355-47fe-85cf-f04cc40e0a16",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+                "code": "urn:ihe:pcc:xphr:2007",
+                "display": "Personal Health Records"
+              }
+            ]
+          }
+        ],
+        "address": "https://fhir-ehr.cerner.com/r4/e60dd76f-2355-47fe-85cf-f04cc40e0a16/"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oe60dd76f-2355-47fe-85cf-f04cc40e0a16",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Oe60dd76f-2355-47fe-85cf-f04cc40e0a16",
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.3.6491"
+          }
+        ],
+        "name": "New York Hotel Trades Council and Hotel Association of New York City, Inc. Health Benefits Fund",
+        "address": [
+          {
+            "line": [
+              "305 W 44th St"
+            ],
+            "city": "New York",
+            "state": "NY",
+            "postalCode": "10036",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/e60dd76f-2355-47fe-85cf-f04cc40e0a16"
           }
         ]
       }
@@ -76552,7 +74800,7 @@
           {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.1092"
+            "value": "urn:oid:2.16.840.1.113883.3.1056"
           },
           {
             "use": "official",
@@ -77053,62 +75301,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/eef7bdb7-cd7b-4ec1-b846-cf9ec1db80c8"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/ef0bf930-6b2b-4701-ae80-fb69fe6af070",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "ef0bf930-6b2b-4701-ae80-fb69fe6af070",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/ef0bf930-6b2b-4701-ae80-fb69fe6af070/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oef0bf930-6b2b-4701-ae80-fb69fe6af070",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oef0bf930-6b2b-4701-ae80-fb69fe6af070",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Operating Engineers Local 101 Health and Welfare Fund",
-        "address": [
-          {
-            "line": [
-              "6601 Winchester Ave Ste 280"
-            ],
-            "city": "Kansas City",
-            "state": "MO",
-            "postalCode": "64133",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/ef0bf930-6b2b-4701-ae80-fb69fe6af070"
           }
         ]
       }
@@ -79023,62 +77215,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/f6ee9d18-ffc2-4889-9056-9398524e1476",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "f6ee9d18-ffc2-4889-9056-9398524e1476",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/f6ee9d18-ffc2-4889-9056-9398524e1476/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Of6ee9d18-ffc2-4889-9056-9398524e1476",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Of6ee9d18-ffc2-4889-9056-9398524e1476",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Centene Corporation",
-        "address": [
-          {
-            "line": [
-              "7700 Forsyth Blvd"
-            ],
-            "city": "SAINT LOUIS",
-            "state": "MO",
-            "postalCode": "63105",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/f6ee9d18-ffc2-4889-9056-9398524e1476"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/f6fa7381-903b-4783-8911-188a44e03a3f",
       "resource": {
         "resourceType": "Endpoint",
@@ -79251,11 +77387,11 @@
         "address": [
           {
             "line": [
-              "1801 Research Blvd # 300"
+              "820 W Diamond Ave"
             ],
-            "city": "Rockville",
+            "city": "Gaithersburg",
             "state": "MD",
-            "postalCode": "20850",
+            "postalCode": "20878",
             "country": "United States of America"
           }
         ],
@@ -81276,62 +79412,6 @@
       }
     },
     {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/ffda347f-dd5c-4ddb-8491-9dc707da579f",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "ffda347f-dd5c-4ddb-8491-9dc707da579f",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/ffda347f-dd5c-4ddb-8491-9dc707da579f/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Offda347f-dd5c-4ddb-8491-9dc707da579f",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Offda347f-dd5c-4ddb-8491-9dc707da579f",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.840.1.113883.3.6042"
-          }
-        ],
-        "name": "Southern Maryland Electric Cooperative, Inc",
-        "address": [
-          {
-            "line": [
-              "15035 Burnt Store Road"
-            ],
-            "city": "Hughesville",
-            "state": "MD",
-            "postalCode": "20637",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/ffda347f-dd5c-4ddb-8491-9dc707da579f"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/fjycTxieSBez9BFs-LP0YIikqnvefkZc",
       "resource": {
         "resourceType": "Endpoint",
@@ -82406,62 +80486,6 @@
         "endpoint": [
           {
             "reference": "Endpoint/i-zcCbJ35X2O5bJkqEF8dvUIAeQf3o9y"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Endpoint/i5Jn6dkai40kwQ-Ttd6yts8LatmIDujZ",
-      "resource": {
-        "resourceType": "Endpoint",
-        "id": "i5Jn6dkai40kwQ-Ttd6yts8LatmIDujZ",
-        "status": "active",
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest",
-          "display": "HL7 FHIR"
-        },
-        "payloadType": [
-          {
-            "coding": [
-              {
-                "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
-                "code": "urn:ihe:pcc:xphr:2007",
-                "display": "Personal Health Records"
-              }
-            ]
-          }
-        ],
-        "address": "https://fhir-ehr.cerner.com/r4/i5Jn6dkai40kwQ-Ttd6yts8LatmIDujZ/"
-      }
-    },
-    {
-      "fullUrl": "https://fhir-ehr.cerner.com/Organization/Oi5Jn6dkai40kwQ-Ttd6yts8LatmIDujZ",
-      "resource": {
-        "resourceType": "Organization",
-        "id": "Oi5Jn6dkai40kwQ-Ttd6yts8LatmIDujZ",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1063404242"
-          }
-        ],
-        "name": "Metuchen Cardio Associates, P.A.",
-        "address": [
-          {
-            "line": [
-              "579 Main Street"
-            ],
-            "city": "Metuchen",
-            "state": "NJ",
-            "postalCode": "08840",
-            "country": "United States of America"
-          }
-        ],
-        "endpoint": [
-          {
-            "reference": "Endpoint/i5Jn6dkai40kwQ-Ttd6yts8LatmIDujZ"
           }
         ]
       }
@@ -86123,11 +84147,6 @@
             "use": "official",
             "system": "http://hl7.org/fhir/sid/us-npi",
             "value": "1467081836"
-          },
-          {
-            "use": "official",
-            "system": "http://hl7.org/fhir/sid/us-npi",
-            "value": "1114268513"
           },
           {
             "use": "official",
